@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+handkunst-nails.de	TRUE	/	FALSE	1999999999	wp_woocommerce_session_670743526a02a5b87d20b286dcf632eb	t_eac73e8bedbcec27ecef85c3e14369%7C1769852169%7C1769765769%7C%24generic%24p0fBUwfCyakwX8cWzMaq-Wq8__hiWVG0P6KEjLOK
+handkunst-nails.de	TRUE	/	FALSE	1999999999	woocommerce_items_in_cart	1
+handkunst-nails.de	TRUE	/	FALSE	1999999999	shop_view	grid
+handkunst-nails.de	TRUE	/	FALSE	1999999999	shop_per_row	4
+handkunst-nails.de	TRUE	/	FALSE	1999999999	woocommerce_cart_hash	c9432a51e88ada844ca4f81c1d5c51f9
+handkunst-nails.de	TRUE	/	FALSE	1999999999	woodmart_recently_viewed_products	10875%7C10948%7C10469%7C10950%7C10955%7C10173%7C10956%7C10382%7C10184%7C10957
+
