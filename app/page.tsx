@@ -163,6 +163,7 @@ export default function Home() {
                 <button
                   onClick={() => handlePageChange(currentPage - 1)}
                   disabled={currentPage === 1}
+                  suppressHydrationWarning
                   className={`p-2 rounded-lg border transition-colors ${
                     currentPage === 1 
                       ? "border-gray-200 text-gray-300 cursor-not-allowed" 
@@ -176,6 +177,7 @@ export default function Home() {
                   <button
                     key={page}
                     onClick={() => handlePageChange(page)}
+                    suppressHydrationWarning
                     className={`w-10 h-10 rounded-lg font-bold transition-all ${
                       currentPage === page
                         ? "bg-[#0F4C81] text-white shadow-md transform scale-105"
@@ -189,6 +191,7 @@ export default function Home() {
                 <button
                   onClick={() => handlePageChange(currentPage + 1)}
                   disabled={currentPage === totalPages}
+                  suppressHydrationWarning
                   className={`p-2 rounded-lg border transition-colors ${
                     currentPage === totalPages 
                       ? "border-gray-200 text-gray-300 cursor-not-allowed" 
