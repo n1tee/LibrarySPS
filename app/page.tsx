@@ -1,20 +1,25 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { templates } from "@/app/data/templates";
 import { translations } from "@/app/data/translations"; // Import từ điển
 import Header from "@/app/components/Header"; // Import Header đã tách
 import Link from "next/link";
-import { ChevronDown, Check, Search, X } from "lucide-react"; // Đã thêm icon Search và X
+// Gom gọn các imports từ lucide-react
+import { ChevronDown, Check, Search, X, ChevronLeft, ChevronRight } from "lucide-react"; 
 
 export default function Home() {
   // --- STATE ---
   const [currentLang, setCurrentLang] = useState('vi');
   const [selectedCategory, setSelectedCategory] = useState("Tất cả");
   const [selectedPackage, setSelectedPackage] = useState("all");
-
+  
   // State quản lý từ khóa tìm kiếm
   const [searchQuery, setSearchQuery] = useState("");
+
+  // --- STATE PHÂN TRANG (PAGINATION) ---
+  const [currentPage, setCurrentPage] = useState(1);
+  const ITEMS_PER_PAGE = 9; // Số sản phẩm mỗi trang
 
   // Lấy bộ từ điển hiện tại
   const t = translations[currentLang];
@@ -36,19 +41,50 @@ export default function Home() {
     return matchCategory && matchPackage && matchSearch;
   });
 
+  // --- LOGIC CẮT TRANG (PAGINATION LOGIC) ---
+  const totalPages = Math.ceil(filteredTemplates.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  // Dữ liệu dùng để hiển thị (chỉ lấy 9 cái)
+  const paginatedTemplates = filteredTemplates.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+
+  // --- HÀM XỬ LÝ (HANDLERS) ---
+
+  // Chuyển trang
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    // Cuộn nhẹ lên đầu danh sách
+    document.getElementById("template-list")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  };
+
+  // Chọn gói (Package)
   const handleSelectPackage = (pkg: string) => {
     setSelectedPackage(pkg);
-    // Tự động cuộn xuống danh sách sản phẩm
+    setCurrentPage(1); // Reset về trang 1
+    
     setTimeout(() => {
       document.getElementById("template-list")?.scrollIntoView({ behavior: "smooth", block: "start" });
     }, 100);
   };
 
+  // Reset bộ lọc
   const handleReset = () => {
     setSelectedCategory("Tất cả");
     setSelectedPackage("all");
-    setSearchQuery(""); // Reset cả ô tìm kiếm
+    setSearchQuery(""); 
+    setCurrentPage(1); // Reset về trang 1
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  // Chọn danh mục (Category)
+  const handleSelectCategory = (cat: string) => {
+    setSelectedCategory(cat);
+    setCurrentPage(1); // Reset về trang 1
+  };
+
+  // Nhập tìm kiếm
+  const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
+    setCurrentPage(1); // Reset về trang 1
   };
 
   return (
@@ -70,10 +106,9 @@ export default function Home() {
           <div className="mb-8 text-center animate-in fade-in slide-in-from-bottom-2">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-[#0F4C81] font-bold border border-blue-100">
               <Check size={16} /> {t.viewing}: {
-                // SỬA LẠI: Kiểm tra đúng tên gói mới (Essential, Advanced, Professional)
                 selectedPackage === 'Essential' ? t.pkg_essential :
-                  selectedPackage === 'Advanced' ? t.pkg_advanced :
-                    t.pkg_pro // Trường hợp còn lại là Professional
+                selectedPackage === 'Advanced' ? t.pkg_advanced :
+                t.pkg_pro 
               }
               <button onClick={() => handleSelectPackage('all')} className="ml-2 hover:text-red-500 text-gray-400">✕</button>
             </span>
@@ -93,16 +128,14 @@ export default function Home() {
         {/* --- THANH TÌM KIẾM (SEARCH BAR) --- */}
         <div className="max-w-xl mx-auto mb-12 relative group">
           <div className="relative">
-            {/* Icon kính lúp bên trái */}
             <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
               <Search className="h-5 w-5 text-gray-400 group-focus-within:text-[#0F4C81] transition-colors" />
             </div>
 
-            {/* Ô nhập liệu input */}
             <input
               type="text"
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={handleSearch} // Đã sửa để reset page về 1
               placeholder={t.search_placeholder}
               className="
                         block w-full pl-11 pr-10 py-4 
@@ -114,10 +147,9 @@ export default function Home() {
                     "
             />
 
-            {/* Nút X để xóa nhanh nội dung tìm kiếm */}
             {searchQuery && (
               <button
-                onClick={() => setSearchQuery('')}
+                onClick={() => { setSearchQuery(''); setCurrentPage(1); }}
                 className="absolute inset-y-0 right-0 pr-4 flex items-center text-gray-400 hover:text-gray-600 cursor-pointer"
               >
                 <X size={18} />
@@ -131,7 +163,7 @@ export default function Home() {
           {categories.map((cat) => (
             <button
               key={cat}
-              onClick={() => setSelectedCategory(cat)}
+              onClick={() => handleSelectCategory(cat)} // Đã sửa để reset page về 1
               className={`px-6 py-2.5 rounded-full font-semibold text-sm transition-all duration-300 ${selectedCategory === cat
                 ? "bg-[#0F4C81] text-white shadow-md ring-2 ring-offset-2 ring-[#0F4C81]"
                 : "bg-white text-gray-600 border border-gray-200 hover:border-[#0F4C81] hover:text-[#0F4C81]"
@@ -144,53 +176,101 @@ export default function Home() {
 
         {/* Grid hiển thị sản phẩm */}
         {filteredTemplates.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredTemplates.map((item) => (
-              <div key={item.id} className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col">
-                <div className="p-4 bg-gray-50 relative">
-                  {/* Badge Package */}
-                  {item.package && (
-                    <div className="absolute top-4 left-4 z-10">
-                      <span className={`px-3 py-1.5 rounded-md text-xs font-bold text-white shadow-md tracking-wide uppercase
-                        ${item.package === 'Essential' ? 'bg-[#00A651]' : item.package === 'Advanced' ? 'bg-[#0F4C81]' : 'bg-orange-500'}
-                      `}>
-                        {item.package === 'Essential' ? 'ESSENTIAL' : item.package === 'Advanced' ? 'ADVANCED' : 'PROFESSIONAL'}
-                      </span>
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* SỬA: Dùng paginatedTemplates thay vì filteredTemplates */}
+              {paginatedTemplates.map((item) => (
+                <div key={item.id} className="group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-gray-100 flex flex-col">
+                  <div className="p-4 bg-gray-50 relative">
+                    {/* Badge Package */}
+                    {item.package && (
+                      <div className="absolute top-4 left-4 z-10">
+                        <span className={`px-3 py-1.5 rounded-md text-xs font-bold text-white shadow-md tracking-wide uppercase
+                          ${item.package === 'Essential' ? 'bg-[#00A651]' : item.package === 'Advanced' ? 'bg-[#0F4C81]' : 'bg-orange-500'}
+                        `}>
+                          {item.package === 'Essential' ? 'ESSENTIAL' : item.package === 'Advanced' ? 'ADVANCED' : 'PROFESSIONAL'}
+                        </span>
+                      </div>
+                    )}
+                    {/* Image */}
+                    <div className="relative overflow-hidden rounded-xl h-64 shadow-inner">
+                      <img src={item.image} alt={item.title} className="w-full h-full object-cover object-top group-hover:scale-105 transition duration-700" />
                     </div>
-                  )}
-                  {/* Image */}
-                  <div className="relative overflow-hidden rounded-xl h-64 shadow-inner">
-                    <img src={item.image} alt={item.title} className="w-full h-full object-cover object-top group-hover:scale-105 transition duration-700" />
+                  </div>
+
+                  <div className="p-6 pt-4 flex flex-col flex-1">
+                    <h3 className="text-xl font-bold text-gray-900 mb-1 group-hover:text-[#0F4C81] transition">
+                      {item.title}
+                    </h3>
+                    <p className="text-gray-500 text-sm mb-4">{t.cats[item.category] || item.category}</p>
+
+                    <div className="mt-auto pt-4 border-t border-gray-100 flex justify-center items-center">
+                      <Link href={`/demo/${item.id}`} className="group flex items-center justify-center gap-2 text-[#0F4C81] font-extrabold text-sm bg-white border-2 border-[#0F4C81] px-6 py-2.5 rounded-full shadow-sm hover:shadow-md hover:bg-[#0F4C81] hover:text-white transition-all duration-300">
+                        {t.view_detail}
+                        <ChevronDown className="-rotate-90 group-hover:translate-x-1 transition-transform" size={18} />
+                      </Link>
+                    </div>
                   </div>
                 </div>
+              ))}
+            </div>
 
-                <div className="p-6 pt-4 flex flex-col flex-1">
-                  <h3 className="text-xl font-bold text-gray-900 mb-1 group-hover:text-[#0F4C81] transition">
-                    {item.title}
-                  </h3>
-                  <p className="text-gray-500 text-sm mb-4">{t.cats[item.category] || item.category}</p>
+            {/* --- THANH PHÂN TRANG (PAGINATION) --- */}
+            {totalPages > 1 && (
+              <div className="mt-12 flex justify-center items-center gap-2 animate-in fade-in slide-in-from-bottom-4">
+                
+                {/* Nút lùi */}
+                <button
+                  onClick={() => handlePageChange(currentPage - 1)}
+                  disabled={currentPage === 1}
+                  className={`p-2 rounded-lg border transition-colors ${
+                    currentPage === 1 
+                      ? "border-gray-200 text-gray-300 cursor-not-allowed" 
+                      : "border-gray-300 text-gray-600 hover:bg-gray-100 hover:text-[#0F4C81]"
+                  }`}
+                >
+                  <ChevronLeft size={20} />
+                </button>
 
-                  <div className="mt-auto pt-4 border-t border-gray-100 flex justify-center items-center">
-                    <Link href={`/demo/${item.id}`} className="group flex items-center justify-center gap-2 text-[#0F4C81] font-extrabold text-sm bg-white border-2 border-[#0F4C81] px-6 py-2.5 rounded-full shadow-sm hover:shadow-md hover:bg-[#0F4C81] hover:text-white transition-all duration-300">
-                      {t.view_detail}
-                      <ChevronDown className="-rotate-90 group-hover:translate-x-1 transition-transform" size={18} />
-                    </Link>
-                  </div>
-                </div>
+                {/* Các số trang */}
+                {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                  <button
+                    key={page}
+                    onClick={() => handlePageChange(page)}
+                    className={`w-10 h-10 rounded-lg font-bold transition-all ${
+                      currentPage === page
+                        ? "bg-[#0F4C81] text-white shadow-md transform scale-105"
+                        : "bg-white text-gray-600 hover:bg-gray-100 border border-gray-200"
+                    }`}
+                  >
+                    {page}
+                  </button>
+                ))}
+
+                {/* Nút tiến */}
+                <button
+                  onClick={() => handlePageChange(currentPage + 1)}
+                  disabled={currentPage === totalPages}
+                  className={`p-2 rounded-lg border transition-colors ${
+                    currentPage === totalPages 
+                      ? "border-gray-200 text-gray-300 cursor-not-allowed" 
+                      : "border-gray-300 text-gray-600 hover:bg-gray-100 hover:text-[#0F4C81]"
+                  }`}
+                >
+                  <ChevronRight size={20} />
+                </button>
               </div>
-            ))}
-          </div>
+            )}
+          </>
         ) : (
           <div className="text-center py-20 bg-white rounded-3xl border border-dashed border-gray-300">
-            {/* Icon khi không tìm thấy kết quả */}
             <div className="mx-auto h-16 w-16 text-gray-300 mb-4 bg-gray-50 rounded-full flex items-center justify-center">
               <Search size={32} />
             </div>
             <p className="text-gray-500 text-lg">{t.not_found}</p>
 
-            {/* Nút reset */}
             <button
-              onClick={() => { setSearchQuery(''); setSelectedPackage('all'); setSelectedCategory('Tất cả') }}
+              onClick={handleReset}
               className="mt-4 text-[#0F4C81] font-bold hover:underline"
             >
               {t.view_all}

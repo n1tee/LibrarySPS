@@ -5,6 +5,7 @@ import { templates } from "@/app/data/templates";
 import { ArrowLeft, ExternalLink, CheckCircle, Eye } from "lucide-react";
 import { useState, useEffect } from "react";
 
+
 export default function DemoPage() {
   const params = useParams();
   const router = useRouter();
