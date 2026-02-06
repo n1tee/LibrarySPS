@@ -21,8 +21,8 @@ export default function Header({ t, currentPkg, onLanguageChange, onSelectPackag
         {/* --- 1. LOGO & MENU TRÁI --- */}
         <div className="flex items-center gap-6 md:gap-12">
           
-          {/* LOGO TO */}
-          <Link href="/" onClick={onReset} className="block py-1">
+          {/* LOGO TO - Đã sửa link về trang chính */}
+          <Link href="https://spsmarketing.de" className="block py-1">
             <img
               src="/sps_logo.png"
               alt="SPS Logo"
@@ -37,8 +37,8 @@ export default function Header({ t, currentPkg, onLanguageChange, onSelectPackag
               className={`
                   px-5 py-3 rounded-xl text-xl font-extrabold transition-all duration-200
                   ${currentPkg === 'all' 
-                      ? 'text-[#0F4C81] bg-blue-50/60' 
-                      : 'text-gray-600 hover:text-[#0F4C81] hover:bg-gray-50'
+                    ? 'text-[#0F4C81] bg-blue-50/60' 
+                    : 'text-gray-600 hover:text-[#0F4C81] hover:bg-gray-50'
                   }
               `}
             >
