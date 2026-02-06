@@ -26,7 +26,7 @@ export default function Header({ t, currentPkg, onLanguageChange, onSelectPackag
             <img
               src="/sps_logo.png"
               alt="SPS Logo"
-              className="h-16 md:h-24 w-auto object-contain hover:scale-105 transition-transform duration-300 drop-shadow-sm"
+              className="h-20 md:h-32 w-auto object-contain hover:scale-105 transition-transform duration-300 drop-shadow-sm"
             />
           </Link>
 
