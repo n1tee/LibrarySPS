@@ -1,0 +1,35 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 05 Feb 2026 15:28:39 at https://gasthausgoeke.de/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://gasthausgoeke.de/ -O1 "E:\SPN\NhaHang\res6" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:28:40	Warning: 	Note: due to https://gasthausgoeke.de remote robots.txt rules, links beginning with these path will be forbidden: /wp-admin/ (see in the options to disable this)
+15:29:51	Error: 	"Service Unavailable" (503) at link https://gasthausgoeke.de/xmlrpc.php?rsd (from https://gasthausgoeke.de/)
+15:31:07	Warning: 	Moved Permanently for https://gasthausgoeke.de/ueber-uns/impressum/
+15:31:07	Warning: 	File has moved from https://gasthausgoeke.de/ueber-uns/impressum/ to https://gasthausgoeke.de/impressum/
+15:31:07	Warning: 	Moved Permanently for https://gasthausgoeke.de/ueber-uns/kontakt/
+15:31:07	Warning: 	File has moved from https://gasthausgoeke.de/ueber-uns/kontakt/ to https://gasthausgoeke.de/kontakt/
+15:31:07	Warning: 	Moved Permanently for https://gasthausgoeke.de/ueber-uns/reservierung/
+15:31:07	Warning: 	File has moved from https://gasthausgoeke.de/ueber-uns/reservierung/ to https://gasthausgoeke.de/reservierung/
+15:31:11	Error: 	"Not Found" (404) at link https://gasthausgoeke.de/wp-content/uploads/2023/08/Gasthaus_Goeke_Kopf_2023-08.pdf (from https://gasthausgoeke.de/wp-content/uploads/2023/08/logo_xl.svg)
+15:31:13	Warning: 	Moved Permanently for https://gasthausgoeke.de/?p=16
+15:31:13	Warning: 	File has moved from https://gasthausgoeke.de/?p=16 to https://gasthausgoeke.de/raeumlichkeiten/
+15:31:15	Warning: 	Moved Permanently for https://gasthausgoeke.de/?p=18
+15:31:15	Warning: 	File has moved from https://gasthausgoeke.de/?p=18 to https://gasthausgoeke.de/veranstaltungen/
+15:31:17	Warning: 	Moved Permanently for https://gasthausgoeke.de/?p=19
+15:31:17	Warning: 	File has moved from https://gasthausgoeke.de/?p=19 to https://gasthausgoeke.de/essen-und-trinken/
+15:31:18	Warning: 	Moved Permanently for https://gasthausgoeke.de/?p=20
+15:31:18	Warning: 	File has moved from https://gasthausgoeke.de/?p=20 to https://gasthausgoeke.de/ueber-uns/
+15:31:21	Warning: 	Moved Permanently for https://gasthausgoeke.de/?p=1370
+15:31:21	Warning: 	File has moved from https://gasthausgoeke.de/?p=1370 to https://gasthausgoeke.de/kontakt/
+15:31:21	Warning: 	Moved Permanently for https://gasthausgoeke.de/?p=1393
+15:31:21	Warning: 	File has moved from https://gasthausgoeke.de/?p=1393 to https://gasthausgoeke.de/reservierung/
+15:31:21	Warning: 	Moved Permanently for https://gasthausgoeke.de/?p=1365
+15:31:21	Warning: 	File has moved from https://gasthausgoeke.de/?p=1365 to https://gasthausgoeke.de/impressum/
+15:31:27	Error: 	"Not Found" (404) at link https://gasthausgoeke.de/wp-content/uploads/2023/09/74290934_eps_normal_none.svg (from https://gasthausgoeke.de/wp-content/uploads/2023/09/kegel.svg)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 48 seconds : 251 links scanned, 237 files written (22067139 bytes overall) [21131889 bytes received at 125785 bytes/sec], 1382260 bytes transferred using HTTP compression in 32 files, ratio 14%, 3.4 requests per connection
+(3 errors, 21 warnings, 0 messages)

@@ -1,0 +1,2 @@
+(function(){"use strict";const forqyBackToTop=document.querySelectorAll(".js-back-to-top")[0];function forqyBackToTopState(element){const backToTopStart=document.documentElement.clientHeight;if(document.scrollingElement.scrollTop>=backToTopStart){element.classList.add("active");}else{element.classList.remove("active");}}
+if(forqyBackToTop){forqyBackToTopState(forqyBackToTop);document.addEventListener("scroll",function(){forqyBackToTopState(forqyBackToTop);});}}());

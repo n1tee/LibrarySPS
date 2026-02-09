@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+reservation.dish.co	TRUE	/	FALSE	1999999999	SESSION	MDAxMmZhOTktN2Q4Ny00OWMzLWFjOTktZDhkNmI0ZGY4Y2E2
+reservation.dish.co	TRUE	/	FALSE	1999999999	SameSite	Lax
+

@@ -1,0 +1,241 @@
+ .u-section-1 {
+  background-image: none;
+  min-height: 932px;
+}
+
+.u-section-1 .u-image-1 {
+  height: 784px;
+  margin-top: 148px;
+  margin-bottom: 0;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  letter-spacing: 1px;
+  background-image: none;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: -541px auto 0;
+  padding: 10px 53px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  letter-spacing: 1px;
+  background-image: none;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 52px auto 0;
+  padding: 10px 101px 10px 100px;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: none;
+  letter-spacing: 1px;
+  background-image: none;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 52px auto 0;
+  padding: 12px 69px 12px 68px;
+}
+
+.u-section-1 .u-btn-4 {
+  border-style: none;
+  letter-spacing: 1px;
+  background-image: none;
+  font-size: 1.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 52px auto 60px;
+  padding: 12px 81px 12px 80px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-1 {
+    min-height: 999px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 960px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -708px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 79px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-top: 79px;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    min-height: 966px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 824px;
+    margin-top: 142px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -569px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    margin-top: 62px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    margin-top: 62px;
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-1 {
+    min-height: 1060px;
+  }
+
+  .u-section-1 .u-image-1 {
+    height: 918px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-top: -608px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-btn-1 {
+    font-size: 1.125rem;
+    margin-top: -673px;
+    padding: 14px 23px 15px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    font-size: 1.125rem;
+    margin-top: 72px;
+    padding: 14px 77px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    font-size: 1.125rem;
+    margin-top: 72px;
+    padding: 15px 48px;
+  }
+
+  .u-section-1 .u-btn-4 {
+    margin-top: 54px;
+    padding-right: 52px;
+    padding-left: 51px;
+  }
+} .u-section-2 {
+  background-position: 50% 50%;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 395px;
+}
+
+.u-section-2 .u-layout-wrap-1 {
+  margin-top: 47px;
+  margin-bottom: 47px;
+}
+
+.u-section-2 .u-layout-cell-1 {
+  min-height: 313px;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 30px 30px 38px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 1.125rem;
+  animation-duration: 1000ms;
+  margin: 32px 0 0;
+}
+
+.u-section-2 .u-btn-1 {
+  background-image: none;
+  text-decoration: underline !important;
+  margin-top: 0;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 349px;
+  }
+
+  .u-section-2 .u-layout-wrap-1 {
+    margin-top: 0;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 258px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 307px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 149px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-bottom: 19px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 364px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 137px;
+  }
+
+  .u-section-2 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 258px;
+  }
+
+  .u-section-2 .u-layout-cell-1 {
+    min-height: 325px;
+  }
+
+  .u-section-2 .u-text-1 {
+    width: auto;
+    margin-top: 0;
+  }
+}

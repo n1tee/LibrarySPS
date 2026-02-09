@@ -1,0 +1,1 @@
+.e-add-hoverimage{position:relative}.e-add-hoverimage:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:#000;opacity:0;transition:opacity ease 0.5s}.e-add-zoomeffect{overflow:hidden}.e-add-zoomeffect img{transition:transform 0.5s ease}

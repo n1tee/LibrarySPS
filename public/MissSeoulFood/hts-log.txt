@@ -1,0 +1,383 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 05 Feb 2026 15:36:05 at https://missseoulfood.de/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://missseoulfood.de/ -O1 "E:\SPN\NhaHang\res8" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:40:33	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2247
+15:40:33	Warning: 	File has moved from https://missseoulfood.de/?p=2247 to https://missseoulfood.de/aktuelle-termine/
+15:40:33	Warning: 	Moved Permanently for https://missseoulfood.de/2025/06/27/
+15:40:33	Warning: 	File has moved from https://missseoulfood.de/2025/06/27/ to https://missseoulfood.de
+15:40:37	Warning: 	Found for https://missseoulfood.de/?p=415
+15:40:37	Warning: 	File has moved from https://missseoulfood.de/?p=415 to https://missseoulfood.de
+15:47:45	Warning: 	Found for https://missseoulfood.de/?p=66
+15:47:45	Warning: 	File has moved from https://missseoulfood.de/?p=66 to https://missseoulfood.de
+15:47:45	Warning: 	Found for https://missseoulfood.de/?p=68
+15:47:45	Warning: 	File has moved from https://missseoulfood.de/?p=68 to https://missseoulfood.de
+15:47:45	Warning: 	Moved Permanently for https://missseoulfood.de/?p=602
+15:47:45	Warning: 	File has moved from https://missseoulfood.de/?p=602 to https://missseoulfood.de/kontakt/
+15:47:45	Warning: 	Moved Permanently for https://missseoulfood.de/2018/07/03/
+15:47:45	Warning: 	File has moved from https://missseoulfood.de/2018/07/03/ to https://missseoulfood.de
+15:47:52	Warning: 	Moved Permanently for https://missseoulfood.de/?p=3370
+15:47:52	Warning: 	File has moved from https://missseoulfood.de/?p=3370 to https://missseoulfood.de/miss-seoul-food-in-der-wdr-servicezeit/
+15:47:52	Warning: 	Moved Permanently for https://missseoulfood.de/2026/01/27/
+15:47:52	Warning: 	File has moved from https://missseoulfood.de/2026/01/27/ to https://missseoulfood.de
+15:47:52	Warning: 	Moved Permanently for https://missseoulfood.de/?p=3293
+15:47:52	Warning: 	File has moved from https://missseoulfood.de/?p=3293 to https://missseoulfood.de/koreanisches-mondkalender-neujahr/
+15:47:52	Warning: 	Moved Permanently for https://missseoulfood.de/2026/01/19/
+15:47:52	Warning: 	File has moved from https://missseoulfood.de/2026/01/19/ to https://missseoulfood.de
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/?p=550
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/?p=550 to https://missseoulfood.de/jajangmyeon-koreanische-spaghetti/
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/2025/08/21/
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/2025/08/21/ to https://missseoulfood.de
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/?p=548
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/?p=548 to https://missseoulfood.de/kimbab-picknick-auf-koreanisch-2/
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/2025/08/09/
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/2025/08/09/ to https://missseoulfood.de
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/?p=647
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/?p=647 to https://missseoulfood.de/mandu-jongol-koreanischer-hotpot-mit-teigtaschen/
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/2025/08/03/
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/2025/08/03/ to https://missseoulfood.de
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/?p=595
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/?p=595 to https://missseoulfood.de/kimchi-koreanischer-kimchi-eintopf/
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/2025/07/28/
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/2025/07/28/ to https://missseoulfood.de
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/?p=646
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/?p=646 to https://missseoulfood.de/andong-jjim-dak-koreanisches-schmorhuhn-nach-andong-art/
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/2025/07/20/
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/2025/07/20/ to https://missseoulfood.de
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/?p=631
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/?p=631 to https://missseoulfood.de/doenjang-jjigae-suppe-mit-koreanischer-sojabohnenpaste/
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/2025/07/13/
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/2025/07/13/ to https://missseoulfood.de
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/?p=636
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/?p=636 to https://missseoulfood.de/jabchae-koreanischer-glasnudelsalat/
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/2025/07/06/
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/2025/07/06/ to https://missseoulfood.de
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/?p=654
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/?p=654 to https://missseoulfood.de/bulgogi-koreanisches-feuerfleisch/
+15:48:05	Warning: 	Moved Permanently for https://missseoulfood.de/2025/06/29/
+15:48:05	Warning: 	File has moved from https://missseoulfood.de/2025/06/29/ to https://missseoulfood.de
+15:49:28	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2893
+15:49:28	Warning: 	File has moved from https://missseoulfood.de/?p=2893 to https://missseoulfood.de/essen-in-seoul/
+15:49:28	Warning: 	Moved Permanently for https://missseoulfood.de/2025/06/15/
+15:49:28	Warning: 	File has moved from https://missseoulfood.de/2025/06/15/ to https://missseoulfood.de
+15:49:28	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2889
+15:49:28	Warning: 	File has moved from https://missseoulfood.de/?p=2889 to https://missseoulfood.de/meine-neuen-lieblingsorte-in-seoul/
+15:49:28	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2864
+15:49:28	Warning: 	File has moved from https://missseoulfood.de/?p=2864 to https://missseoulfood.de/meine-lieblingsorte-in-seoul-die-alten/
+15:49:28	Warning: 	Moved Permanently for https://missseoulfood.de/2025/06/03/
+15:49:28	Warning: 	File has moved from https://missseoulfood.de/2025/06/03/ to https://missseoulfood.de
+15:49:28	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2772
+15:49:28	Warning: 	File has moved from https://missseoulfood.de/?p=2772 to https://missseoulfood.de/meine-drei-tanten-und-ich/
+15:49:28	Warning: 	Moved Permanently for https://missseoulfood.de/2025/03/22/
+15:49:28	Warning: 	File has moved from https://missseoulfood.de/2025/03/22/ to https://missseoulfood.de
+15:49:28	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2557
+15:49:28	Warning: 	File has moved from https://missseoulfood.de/?p=2557 to https://missseoulfood.de/drei-gaenge-auf-koreanisch/
+15:49:28	Warning: 	Moved Permanently for https://missseoulfood.de/2024/12/09/
+15:49:28	Warning: 	File has moved from https://missseoulfood.de/2024/12/09/ to https://missseoulfood.de
+15:49:33	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2550
+15:49:33	Warning: 	File has moved from https://missseoulfood.de/?p=2550 to https://missseoulfood.de/kalligraphie-auf-koreanisch/
+15:49:33	Warning: 	Moved Permanently for https://missseoulfood.de/2024/12/06/
+15:49:33	Warning: 	File has moved from https://missseoulfood.de/2024/12/06/ to https://missseoulfood.de
+15:49:33	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2544
+15:49:33	Warning: 	File has moved from https://missseoulfood.de/?p=2544 to https://missseoulfood.de/weihnachten-in-korea-und-deutschland/
+15:49:33	Warning: 	Moved Permanently for https://missseoulfood.de/2024/12/03/
+15:49:33	Warning: 	File has moved from https://missseoulfood.de/2024/12/03/ to https://missseoulfood.de
+15:49:46	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2584
+15:49:46	Warning: 	File has moved from https://missseoulfood.de/?p=2584 to https://missseoulfood.de/gukbab-reis-mit-suppe-oder-suppe-mit-reis/
+15:49:46	Warning: 	Moved Permanently for https://missseoulfood.de/2024/12/17/
+15:49:46	Warning: 	File has moved from https://missseoulfood.de/2024/12/17/ to https://missseoulfood.de
+15:49:46	Warning: 	Moved Permanently for https://missseoulfood.de/?p=650
+15:49:46	Warning: 	File has moved from https://missseoulfood.de/?p=650 to https://missseoulfood.de/dakgyejang-koreanische-scharfe-huehnersuppe/
+15:49:46	Warning: 	Moved Permanently for https://missseoulfood.de/2021/11/25/
+15:49:46	Warning: 	File has moved from https://missseoulfood.de/2021/11/25/ to https://missseoulfood.de
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=645
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=645 to https://missseoulfood.de/budae-jjigae-koreanische-kaserneneintopf/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2021/02/15/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2021/02/15/ to https://missseoulfood.de
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=607
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=607 to https://missseoulfood.de/jachae-jongol-koreanischer-hot-pot/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2020/12/15/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2020/12/15/ to https://missseoulfood.de
+15:49:47	Error: 	"Not Found" (404) at link kochen.missseoulfood.de/wp-content/uploads/Suppe/MissSeoulFood_JachaeJongol-870x695.jpg (from https://missseoulfood.de/jachae-jongol-koreanischer-hot-pot/)
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=638
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=638 to https://missseoulfood.de/kalguksu-koreanische-messernudeln/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2020/11/19/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2020/11/19/ to https://missseoulfood.de
+15:49:47	Error: 	"Not Found" (404) at link kochen.missseoulfood.de/wp-content/uploads/Nudeln/MissSeoulFood-Kalguksu-870x520.jpg (from https://missseoulfood.de/kalguksu-koreanische-messernudeln/)
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=604
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=604 to https://missseoulfood.de/miyeokguk-koreanische-algensuppe/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2020/11/05/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2020/11/05/ to https://missseoulfood.de
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=613
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=613 to https://missseoulfood.de/hobakjuk-koreanische-kuerbissuppe/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2020/10/30/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2020/10/30/ to https://missseoulfood.de
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=649
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=649 to https://missseoulfood.de/jeyuk-bokkum-scharf-suesses-gebratenes-schweinefleisch/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2021/10/22/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2021/10/22/ to https://missseoulfood.de
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=642
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=642 to https://missseoulfood.de/daktoritang-koreanischer-huehnerschmortopf/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2021/01/19/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2021/01/19/ to https://missseoulfood.de
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=566
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=566 to https://missseoulfood.de/koreanische-frikadellen-korea-meets-ruhrgebiet/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2020/10/14/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2020/10/14/ to https://missseoulfood.de
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=635
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=635 to https://missseoulfood.de/galbi-jjim-geschmorte-koreanische-rinderrippen/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2020/09/25/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2020/09/25/ to https://missseoulfood.de
+15:49:47	Error: 	"Not Found" (404) at link kochen.missseoulfood.de/wp-content/uploads/Fleisch/MissSeoulFood_GalbiJjim1870x567.jpg (from https://missseoulfood.de/galbi-jjim-geschmorte-koreanische-rinderrippen/)
+15:49:47	Error: 	"Not Found" (404) at link kochen.missseoulfood.de/wp-content/uploads/Fleisch/MissSeoulFood_GalbiJjim870x541.jpg (from https://missseoulfood.de/galbi-jjim-geschmorte-koreanische-rinderrippen/)
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=626
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=626 to https://missseoulfood.de/bossam-koreanischer-schweinebauch/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2020/08/24/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2020/08/24/ to https://missseoulfood.de
+15:49:47	Error: 	"Not Found" (404) at link kochen.missseoulfood.de/wp-content/uploads/Fleisch/MissSeoulFood_Bossam-870x487.jpg (from https://missseoulfood.de/bossam-koreanischer-schweinebauch/)
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=621
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=621 to https://missseoulfood.de/yangnyeom-chicken-korean-fried-chicken-kfc/
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/2020/08/12/
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/2020/08/12/ to https://missseoulfood.de
+15:49:47	Warning: 	Moved Permanently for https://missseoulfood.de/?p=648
+15:49:47	Warning: 	File has moved from https://missseoulfood.de/?p=648 to https://missseoulfood.de/ssambab-koreanische-salat-wraps/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/2021/10/18/
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/2021/10/18/ to https://missseoulfood.de
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=570
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=570 to https://missseoulfood.de/tteokbokki-die-koreanische-currywurst/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/2021/02/08/
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/2021/02/08/ to https://missseoulfood.de
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=549
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=549 to https://missseoulfood.de/bibimbab-verruehrter-reis-aus-dem-topf/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=627
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=627 to https://missseoulfood.de/kimchi-bokkumbab-gebratener-kimchireis/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/2020/09/02/
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/2020/09/02/ to https://missseoulfood.de
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=547
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=547 to https://missseoulfood.de/kimbab-ganz-ohne-fleisch-und-fisch/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/2016/02/15/
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/2016/02/15/ to https://missseoulfood.de
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=546
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=546 to https://missseoulfood.de/kimbab-fusionstyle-mit-kartoffelsalat/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=545
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=545 to https://missseoulfood.de/kimbab-klassisch-mit-bulgogi/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=574
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=574 to https://missseoulfood.de/reiskuchen-oder-death-by-chocolate/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/2020/09/29/
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/2020/09/29/ to https://missseoulfood.de
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=593
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=593 to https://missseoulfood.de/fusion-food-green-tea-cheesecake/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/2018/06/25/
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/2018/06/25/ to https://missseoulfood.de
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=573
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=573 to https://missseoulfood.de/koreanischer-tee-1-500-jahre-kultur/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/2016/04/20/
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/2016/04/20/ to https://missseoulfood.de
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=572
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=572 to https://missseoulfood.de/fusion-food-green-tea-dominosteine/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=571
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=571 to https://missseoulfood.de/fusion-food-green-tea-rocky-road/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=594
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=594 to https://missseoulfood.de/koreanische-tomaten/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=592
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=592 to https://missseoulfood.de/fusion-food-green-tea-kekse/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=609
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/?p=609 to https://missseoulfood.de/dubu-kimchi-pochierter-tofu-gebratenes-kimchi/
+15:49:48	Warning: 	Moved Permanently for https://missseoulfood.de/2020/06/11/
+15:49:48	Warning: 	File has moved from https://missseoulfood.de/2020/06/11/ to https://missseoulfood.de
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=601
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=601 to https://missseoulfood.de/kimchipfannkuchen-heiss-und-fettig/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/2018/06/28/
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/2018/06/28/ to https://missseoulfood.de
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=600
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=600 to https://missseoulfood.de/kimchi-eine-deutsch-koreanische-liebesgeschichte/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=599
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=599 to https://missseoulfood.de/kimchi-bigos-korea-meets-ruhrgebiet/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=598
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=598 to https://missseoulfood.de/kimchi-grilled-cheese-korea-meets-ruhrgebiet/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=597
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=597 to https://missseoulfood.de/fusion-food-kimchi-quiche/
+15:49:49	Error: 	"Not Found" (404) at link kochen.missseoulfood.de/wp-content/uploads/Kimchi/MissSeoulFood_KimchiMuffins_870x360.jpg (from https://missseoulfood.de/fusion-food-kimchi-quiche/)
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1747
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=1747 to https://missseoulfood.de/spicy-tofu-vegetarisch-kochen-mit-bjoern-freitag-im-tv/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/2023/10/11/
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/2023/10/11/ to https://missseoulfood.de
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=644
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=644 to https://missseoulfood.de/oi-kimchi-oi-muchim-koreanischer-gurkensalat/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/2021/02/11/
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/2021/02/11/ to https://missseoulfood.de
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=632
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=632 to https://missseoulfood.de/gochu-jeon-gebratene-chili/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/2020/09/18/
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/2020/09/18/ to https://missseoulfood.de
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=629
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=629 to https://missseoulfood.de/dubu-jorim-geschmorter-glasierter-tofu/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/2020/09/08/
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/2020/09/08/ to https://missseoulfood.de
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=610
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=610 to https://missseoulfood.de/kongnamul-koreanische-sojabohnensprossen/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=611
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=611 to https://missseoulfood.de/ssamjang-koreanische-dippsauce/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=619
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=619 to https://missseoulfood.de/yeongun-koreanische-lotuswurzel/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=616
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=616 to https://missseoulfood.de/naengmyeon-eiskalte-koreanische-nudeln-2/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/2020/06/04/
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/2020/06/04/ to https://missseoulfood.de
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=605
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=605 to https://missseoulfood.de/ram-don-nudelgericht-parasite/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=614
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=614 to https://missseoulfood.de/ramen-koreanische-nudelsuppe-fuer-alle-faelle-2/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1207
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/?p=1207 to https://missseoulfood.de/kimchi-schupfnudeln-deutsch-koreanisches-fusionfood/
+15:49:49	Warning: 	Moved Permanently for https://missseoulfood.de/2023/05/29/
+15:49:49	Warning: 	File has moved from https://missseoulfood.de/2023/05/29/ to https://missseoulfood.de
+15:49:50	Warning: 	Moved Permanently for https://missseoulfood.de/?p=603
+15:49:50	Warning: 	File has moved from https://missseoulfood.de/?p=603 to https://missseoulfood.de/green-tea-dominosteine-ohne-green-tea/
+15:49:50	Warning: 	Moved Permanently for https://missseoulfood.de/2018/07/10/
+15:49:50	Warning: 	File has moved from https://missseoulfood.de/2018/07/10/ to https://missseoulfood.de
+15:49:50	Warning: 	Moved Permanently for https://missseoulfood.de/?p=591
+15:49:50	Warning: 	File has moved from https://missseoulfood.de/?p=591 to https://missseoulfood.de/mein-sushi-k-r-ampf/
+15:49:50	Warning: 	Moved Permanently for https://missseoulfood.de/2016/05/23/
+15:49:50	Warning: 	File has moved from https://missseoulfood.de/2016/05/23/ to https://missseoulfood.de
+15:49:50	Warning: 	Moved Permanently for https://missseoulfood.de/?p=587
+15:49:50	Warning: 	File has moved from https://missseoulfood.de/?p=587 to https://missseoulfood.de/kimchi-ein-selbstversuch-von-hildegard-mihm/
+15:49:50	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2535
+15:49:50	Warning: 	File has moved from https://missseoulfood.de/?p=2535 to https://missseoulfood.de/zurueck-in-seoul/
+15:49:50	Warning: 	Moved Permanently for https://missseoulfood.de/2024/12/02/
+15:49:50	Warning: 	File has moved from https://missseoulfood.de/2024/12/02/ to https://missseoulfood.de
+15:49:50	Warning: 	Moved Permanently for https://missseoulfood.de/?p=583
+15:49:50	Warning: 	File has moved from https://missseoulfood.de/?p=583 to https://missseoulfood.de/tteokguk-koreanische-reiskuchensuppe/
+15:49:51	Warning: 	Moved Permanently for https://missseoulfood.de/2016/05/03/
+15:49:51	Warning: 	File has moved from https://missseoulfood.de/2016/05/03/ to https://missseoulfood.de
+15:49:51	Warning: 	Moved Permanently for https://missseoulfood.de/?p=567
+15:49:51	Warning: 	File has moved from https://missseoulfood.de/?p=567 to https://missseoulfood.de/mandu-gefuellte-teigtaschen/
+15:49:51	Warning: 	Moved Permanently for https://missseoulfood.de/?p=544
+15:49:51	Warning: 	File has moved from https://missseoulfood.de/?p=544 to https://missseoulfood.de/haemulpajon-meeresfruechtepfannkuchen/
+15:49:51	Warning: 	Moved Permanently for https://missseoulfood.de/2018/06/15/
+15:49:51	Warning: 	File has moved from https://missseoulfood.de/2018/06/15/ to https://missseoulfood.de
+15:49:51	Warning: 	Moved Permanently for https://missseoulfood.de/?p=628
+15:49:51	Warning: 	File has moved from https://missseoulfood.de/?p=628 to https://missseoulfood.de/typische-koreanische-zutaten/
+15:49:51	Warning: 	Moved Permanently for https://missseoulfood.de/2020/08/31/
+15:49:51	Warning: 	File has moved from https://missseoulfood.de/2020/08/31/ to https://missseoulfood.de
+15:49:51	Warning: 	Moved Permanently for https://missseoulfood.de/?p=622
+15:49:51	Warning: 	File has moved from https://missseoulfood.de/?p=622 to https://missseoulfood.de/typische-koreanische-gewuerze/
+15:49:51	Warning: 	Found for https://missseoulfood.de/kimchi-koreanischer-kimchi-eintopf-2/
+15:49:51	Warning: 	File has moved from https://missseoulfood.de/kimchi-koreanischer-kimchi-eintopf-2/ to https://missseoulfood.de
+15:51:08	Warning: 	Moved Permanently for https://missseoulfood.de/?p=2285
+15:51:08	Warning: 	File has moved from https://missseoulfood.de/?p=2285 to https://missseoulfood.de/hallyu-die-koreanische-welle/
+15:51:08	Warning: 	Moved Permanently for https://missseoulfood.de/2024/06/04/
+15:51:08	Warning: 	File has moved from https://missseoulfood.de/2024/06/04/ to https://missseoulfood.de
+15:51:08	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1993
+15:51:08	Warning: 	File has moved from https://missseoulfood.de/?p=1993 to https://missseoulfood.de/koreanische-trinkkultur-anju-kleine-haeppchen-zum-alkohol/
+15:51:08	Warning: 	Moved Permanently for https://missseoulfood.de/2024/04/02/
+15:51:08	Warning: 	File has moved from https://missseoulfood.de/2024/04/02/ to https://missseoulfood.de
+15:51:08	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1935
+15:51:08	Warning: 	File has moved from https://missseoulfood.de/?p=1935 to https://missseoulfood.de/koreanische-getraenke-bier-und-korean-bbq/
+15:51:08	Warning: 	Moved Permanently for https://missseoulfood.de/2024/03/12/
+15:51:08	Warning: 	File has moved from https://missseoulfood.de/2024/03/12/ to https://missseoulfood.de
+15:51:08	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1914
+15:51:08	Warning: 	File has moved from https://missseoulfood.de/?p=1914 to https://missseoulfood.de/koreanisches-fasten/
+15:51:08	Warning: 	Moved Permanently for https://missseoulfood.de/2024/02/27/
+15:51:08	Warning: 	File has moved from https://missseoulfood.de/2024/02/27/ to https://missseoulfood.de
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1898
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/?p=1898 to https://missseoulfood.de/meine-koreanische-cousine/
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/2024/02/18/
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/2024/02/18/ to https://missseoulfood.de
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1872
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/?p=1872 to https://missseoulfood.de/leben-im-hanok-dem-traditionellen-koreanischen-haus/
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/2024/02/05/
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/2024/02/05/ to https://missseoulfood.de
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1853
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/?p=1853 to https://missseoulfood.de/seit-60-jahren-in-deutschland/
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/2024/01/29/
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/2024/01/29/ to https://missseoulfood.de
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1843
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/?p=1843 to https://missseoulfood.de/auf-nach-korea/
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/2024/01/18/
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/2024/01/18/ to https://missseoulfood.de
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1735
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/?p=1735 to https://missseoulfood.de/hangul-die-koreanische-schrift/
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/2023/10/06/
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/2023/10/06/ to https://missseoulfood.de
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=617
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/?p=617 to https://missseoulfood.de/umami-fuenfter-geschmack/
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=612
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/?p=612 to https://missseoulfood.de/dol-erster-geburtstag-korea/
+15:51:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=620
+15:51:09	Warning: 	File has moved from https://missseoulfood.de/?p=620 to https://missseoulfood.de/ttukbaegi-koreanischer-rindfleischeintopf/
+15:52:08	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1725
+15:52:08	Warning: 	File has moved from https://missseoulfood.de/?p=1725 to https://missseoulfood.de/gruendung-koreanisches-reich-tangun/
+15:52:08	Warning: 	Moved Permanently for https://missseoulfood.de/2023/09/30/
+15:52:08	Warning: 	File has moved from https://missseoulfood.de/2023/09/30/ to https://missseoulfood.de
+15:52:08	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1719
+15:52:08	Warning: 	File has moved from https://missseoulfood.de/?p=1719 to https://missseoulfood.de/koreanische-verwandtschaft-zu-besuch/
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=1190
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/?p=1190 to https://missseoulfood.de/happy-buddhas-birthday/
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/2023/05/26/
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/2023/05/26/ to https://missseoulfood.de
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=652
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/?p=652 to https://missseoulfood.de/mein-mietgarten/
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/2022/05/30/
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/2022/05/30/ to https://missseoulfood.de
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=641
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/?p=641 to https://missseoulfood.de/weisse-koennen-nicht-kochen/
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/2021/01/20/
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/2021/01/20/ to https://missseoulfood.de
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=555
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/?p=555 to https://missseoulfood.de/neujahr-in-korea/
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/2020/12/29/
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/2020/12/29/ to https://missseoulfood.de
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=556
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/?p=556 to https://missseoulfood.de/winter-in-korea/
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/2020/12/23/
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/2020/12/23/ to https://missseoulfood.de
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=562
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/?p=562 to https://missseoulfood.de/5-gruende-warum-man-koreanisch-essen-sollte/
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/2020/10/21/
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/2020/10/21/ to https://missseoulfood.de
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/?p=623
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/?p=623 to https://missseoulfood.de/einkaufen-im-asiasupermarkt/
+15:52:09	Warning: 	Moved Permanently for https://missseoulfood.de/2020/08/18/
+15:52:09	Warning: 	File has moved from https://missseoulfood.de/2020/08/18/ to https://missseoulfood.de
+15:52:19	Warning: 	Moved Permanently for https://missseoulfood.de/?p=624
+15:52:19	Warning: 	File has moved from https://missseoulfood.de/?p=624 to https://missseoulfood.de/wahlbenachrichtigung-integrationsrat-kommunalwahl-2020/
+15:52:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=618
+15:52:48	Warning: 	File has moved from https://missseoulfood.de/?p=618 to https://missseoulfood.de/koreanische-hochzeit/
+15:52:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=577
+15:52:48	Warning: 	File has moved from https://missseoulfood.de/?p=577 to https://missseoulfood.de/eine-rampe-und-jede-menge-kimbab-fuer-karen/
+15:52:48	Error: 	"Not Found" (404) at link kochen.missseoulfood.de/wp-content/uploads/Allgemein/Falkenberg_MissSeoulFood_Rampe-fuer_Karen.jpg (from https://missseoulfood.de/eine-rampe-und-jede-menge-kimbab-fuer-karen/)
+15:52:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=575
+15:52:48	Warning: 	File has moved from https://missseoulfood.de/?p=575 to https://missseoulfood.de/heiraten-auf-deutsch-koreanisch/
+15:52:48	Warning: 	Moved Permanently for https://missseoulfood.de/2016/05/02/
+15:52:48	Warning: 	File has moved from https://missseoulfood.de/2016/05/02/ to https://missseoulfood.de
+15:52:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=565
+15:52:48	Warning: 	File has moved from https://missseoulfood.de/?p=565 to https://missseoulfood.de/koreanisches-essen-fuer-anfaenger/
+15:52:48	Error: 	"Not Found" (404) at link kochen.missseoulfood.de/wp-content/uploads/Banchan/Muckphoto_MissSeoulFood_Tofu.jpg (from https://missseoulfood.de/koreanisches-essen-fuer-anfaenger/)
+15:52:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=563
+15:52:48	Warning: 	File has moved from https://missseoulfood.de/?p=563 to https://missseoulfood.de/messer-gabel-schere-staebchen/
+15:52:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=561
+15:52:48	Warning: 	File has moved from https://missseoulfood.de/?p=561 to https://missseoulfood.de/koreanische-garkuechen/
+15:52:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=560
+15:52:48	Warning: 	File has moved from https://missseoulfood.de/?p=560 to https://missseoulfood.de/koreanische-essgewohnheiten-reis-mit-kimchi/
+15:52:48	Warning: 	Moved Permanently for https://missseoulfood.de/?p=559
+15:52:48	Warning: 	File has moved from https://missseoulfood.de/?p=559 to https://missseoulfood.de/miss-seoul-food-bei-masterchef/
+15:52:49	Warning: 	Found for https://missseoulfood.de/?p=707
+15:52:49	Warning: 	File has moved from https://missseoulfood.de/?p=707 to https://missseoulfood.de
+15:52:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=558
+15:52:49	Warning: 	File has moved from https://missseoulfood.de/?p=558 to https://missseoulfood.de/weihnachten-auf-koreanisch/
+15:52:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=557
+15:52:49	Warning: 	File has moved from https://missseoulfood.de/?p=557 to https://missseoulfood.de/korean-street-food/
+15:52:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=554
+15:52:49	Warning: 	File has moved from https://missseoulfood.de/?p=554 to https://missseoulfood.de/koreanische-inquisition/
+15:52:49	Warning: 	Moved Permanently for https://missseoulfood.de/?p=552
+15:52:49	Warning: 	File has moved from https://missseoulfood.de/?p=552 to https://missseoulfood.de/kimbab-fuer-karen/
+15:52:51	Warning: 	Moved Permanently for https://missseoulfood.de/?p=553
+15:52:51	Warning: 	File has moved from https://missseoulfood.de/?p=553 to https://missseoulfood.de/chuseok-halbmondkuchen-zum-erntedankfest/
+
+HTTrack Website Copier/3.49-2 mirror complete in 16 minutes 58 seconds : 936 links scanned, 745 files written (38947799 bytes overall) [30501878 bytes received at 29962 bytes/sec], 12466982 bytes transferred using HTTP compression in 336 files, ratio 23%, 1.2 requests per connection
+(8 errors, 364 warnings, 0 messages)

@@ -1,0 +1,14 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.de	TRUE	/	FALSE	1999999999	handl_original_ref	http%3A%2F%2Fmissseoulfood.de%2F
+.de	TRUE	/	FALSE	1999999999	handl_landing_page	https%3A%2F%2Fmissseoulfood.de%2Fxmlrpc.php%3Frsd
+.de	TRUE	/	FALSE	1999999999	user_agent	Mozilla%2F4.5%20%28compatible%3B%20HTTrack%203.0x%3B%20Windows%2098%29
+.de	TRUE	/	FALSE	1999999999	organic_source	http%3A%2F%2Fmissseoulfood.de%2F
+.de	TRUE	/	FALSE	1999999999	handl_ip	14.191.94.39
+.de	TRUE	/	FALSE	1999999999	handl_ref	http%3A%2F%2Fmissseoulfood.de%2Ffoodblog%2Fpage%2F10%2F
+.de	TRUE	/	FALSE	1999999999	handl_url_base	https%3A%2F%2Fmissseoulfood.de%2Ffoodblog%2Fpage%2F11%2F
+.de	TRUE	/	FALSE	1999999999	handl_url	https%3A%2F%2Fmissseoulfood.de%2Ffoodblog%2Fpage%2F11%2F
+.de	TRUE	/	FALSE	1999999999	organic_source_str	Internal
+missseoulfood.de	TRUE	/	FALSE	1999999999	SameSite	None
+.de	TRUE	/	FALSE	1999999999	HandLtestDomainNameServer	HandLtestDomainValueServer
+

@@ -222,7 +222,7 @@ export const templates: Template[] = [
 
   {
     id: 13,
-    title: "BrauhausRietkotter",
+    title: "Brauhaus Rietkotter",
     category: "F&B",
     package: "Professional",
     description: "Brauhaus Rietkötter gây ấn tượng mạnh mẽ với thiết kế Full-screen Background, giúp phô diễn trọn vẹn không gian ấm cúng và sang trọng của nhà hàng. Đây là lựa chọn lý tưởng cho các quán Pub, Brewery hoặc Bistro muốn chinh phục thực khách bằng bầu không khí mời gọi ngay từ lần truy cập đầu tiên.",
@@ -239,7 +239,7 @@ export const templates: Template[] = [
 
   {
     id: 14,
-    title: "FiegesStammhaus",
+    title: "Fieges Stammhaus",
     category: "F&B",
     package: "Professional",
     description: "Fieges Stammhaus mang đậm hơi thở truyền thống với phong cách thiết kế mộc mạc (Rustic) kết hợp tông xanh cổ điển đặc trưng của thương hiệu bia lâu đời. Đây là giao diện lý tưởng cho các quán bia (Brauhaus), nhà hàng gia đình hoặc các mô hình kinh doanh đề cao giá trị lịch sử, sự gắn kết con người và ẩm thực địa phương.",
@@ -256,7 +256,7 @@ export const templates: Template[] = [
 
   {
     id: 15,
-    title: "EventGenuss",
+    title: "Event Genuss",
     category: "F&B",
     package: "Advanced",
     description: "EventGenuss gây ấn tượng bởi vẻ đẹp hiện đại, thanh lịch với nền trắng chủ đạo, làm nổi bật tối đa hình ảnh sự kiện và không gian thiên nhiên. Đây là giao diện mẫu mực cho các đơn vị Tổ chức sự kiện (Event Agency), Dịch vụ Catering ngoài trời hoặc Khu du lịch sinh thái, nơi cần sự chuyên nghiệp và thông tin được trình bày mạch lạc, rõ ràng.",
@@ -268,6 +268,91 @@ export const templates: Template[] = [
       "Tối ưu trình diễn hình ảnh Không gian (Venue) & Hoạt động ngoài trời",
       "Bố cục linh hoạt cho nhiều loại hình dịch vụ: Food Trucks, Hội nghị, Tiệc cưới",
       "Giao diện tập trung vào trải nghiệm người dùng (UX) và điều hướng trực quan",
+    ]
+  },
+
+  {
+    id: 16,
+    title: "Gasthaus Goeke",
+    category: "F&B",
+    package: "Advanced",
+    description: "Gasthaus Goeke mang vẻ đẹp thanh lịch, cổ điển với tông màu xanh rêu (Moss Green) sang trọng và typography theo phong cách Blackletter truyền thống. Đây là giao diện hoàn hảo cho các Nhà hàng lâu đời, Khách sạn di sản (Heritage Hotels) hoặc Khu nghỉ dưỡng vùng ngoại ô, nơi muốn tôn vinh giá trị lịch sử và sự hiếu khách nồng hậu.",
+    image: "/images/GasthausGoeke.png",
+    demoUrl: "/GasthausGoeke/index.html",
+    features: [
+      "Sự kết hợp Typography độc đáo giữa Blackletter & Script (Chữ viết tay)",
+      "Bảng màu Xanh Rêu & Kem tạo cảm giác Tin cậy & Yên bình",
+      "Header cổ điển tích hợp Minh họa thương hiệu (Brand Illustration)",
+      "Nền website sử dụng họa tiết chìm (Watermark Pattern) tinh tế",
+      "Bố cục tập trung vào Thông điệp chào mừng & Hình ảnh mặt tiền"
+    ]
+  },
+
+  {
+    id: 17,
+    title: "Lisas Palmengarten",
+    category: "F&B",
+    package: "Advanced",
+    description: "Lisas Palmengarten mang đến làn gió tươi mới với sự kết hợp thú vị giữa phong cách nhiệt đới (Tropical) năng động và sự ấm cúng mộc mạc của nội thất gỗ. Giao diện này là lựa chọn tuyệt vời cho các mô hình Café, Lounge, Bar hoặc Nhà hàng gia đình, nơi muốn truyền tải cảm giác thư giãn, vui vẻ như một kỳ nghỉ thu nhỏ ngay trong lòng thành phố.",
+    image: "/images/LisasPalmengarten.png",
+    demoUrl: "/LisasPalmengarten/index.html",
+    features: [
+      "Header sử dụng nền kết cấu vải (Fabric Texture) tạo nét thủ công, gần gũi",
+      "Thanh điều hướng (Navigation) nổi bật với Font chữ viết tay (Script Font) cách điệu",
+      "Slider hình ảnh trung tâm (Hero Slider) cỡ lớn giúp phô diễn không gian nội thất",
+      "Bảng màu Xanh biển & Cam mang lại năng lượng tích cực, mời gọi",
+      "Bố cục tập trung vào hình ảnh trải nghiệm thực tế & Không gian riêng tư"
+    ]
+  },
+
+  {
+    id: 18,
+    title: "Miss Seoul Food",
+    category: "F&B",
+    package: "Professional",
+    description: "Miss Seoul Food toát lên vẻ đẹp thanh lịch, tinh tế với tông màu phấn (Pastel) nhẹ nhàng làm chủ đạo. Đây là template lý tưởng cho các Blog Ẩm thực (Food Blog), Trường dạy nấu ăn (Cooking School) hoặc Website xây dựng thương hiệu cá nhân, nơi cần sự chỉn chu về hình ảnh và phong cách kể chuyện lôi cuốn.",
+    image: "/images/MissSeoulFood.png",
+    demoUrl: "/MissSeoulFood/index.html",
+    features: [
+      "Phong cách thiết kế Clean & Feminine sang trọng, hiện đại",
+      "Typography sử dụng font có chân (Serif) cỡ lớn tạo điểm nhấn uy tín",
+      "Hero Section tập trung vào Thông điệp chính & Nút kêu gọi hành động (CTA)",
+      "Tối ưu hiển thị cho nội dung Blog, Công thức nấu ăn & Lịch khóa học",
+      "Họa tiết nền chìm (Watermark) tinh tế, tạo chiều sâu cho giao diện"
+    ]
+  },
+
+  {
+    id: 19,
+    title: "Kimbap Spot",
+    category: "F&B",
+    package: "Advanced",
+    description: "Kimbap Spot mang đến phong cách hiện đại, đầy năng lượng với thiết kế 'Food-first' (đặt món ăn làm trung tâm). Sử dụng góc chụp Flatlay (từ trên xuống) ấn tượng làm nền, giao diện này là lựa chọn hoàn hảo cho các nhà hàng Fast-casual, quán ăn đường phố hiện đại (Street Food) hoặc dịch vụ giao đồ ăn, nơi cần kích thích vị giác và thúc đẩy hành động đặt hàng ngay lập tức.",
+    image: "/images/KimbapSpot.png",
+    demoUrl: "/KimbapSpot/index.html",
+    features: [
+      "Hero Section ấn tượng với nền nhiếp ảnh Flatlay chất lượng cao",
+      "Tích hợp mạnh mẽ các nút Call-to-Action cho Ứng dụng giao hàng (Delivery Apps)",
+      "Typography đậm (Bold Sans-serif) tương phản cao, dễ đọc trên nền ảnh",
+      "Bố cục tập trung hiển thị Thông báo Sự kiện & Menu đặc biệt (Specials)",
+      "Phong cách Urban (Đô thị) trẻ trung, tối ưu cho trải nghiệm trên di động"
+    ]
+  },
+
+  {
+    id: 20,
+    title: "El Dorado Steakhaus",
+    category: "F&B",
+    package: "Professional",
+    description: "El Dorado sở hữu phong cách thiết kế 'Dark & Bold' đầy quyền lực, sử dụng tông màu đen huyền bí làm nền tảng để tôn vinh tối đa màu sắc tươi ngon của nguyên liệu và món ăn. Đây là giao diện 'đo ni đóng giày' cho các nhà hàng Steakhouse, BBQ cao cấp hoặc các quán nướng, nơi muốn khẳng định đẳng cấp thượng hạng và chất lượng dịch vụ ngay từ cái nhìn đầu tiên.",
+    image: "/images/ElDoradoSteakhaus.png",
+    demoUrl: "/ElDoradoSteakhaus/index.html",
+    features: [
+      "Giao diện Dark Mode sang trọng, làm nổi bật hình ảnh món ăn",
+      "Logo trung tâm & Thanh điều hướng đối xứng tạo sự cân bằng hoàn hảo",
+      "Typography mạnh mẽ, kết hợp giữa nét cổ điển và hiện đại",
+      "Tối ưu hóa không gian cho hình ảnh Banner (Hero Image) chất lượng cao",
+      "Tích hợp nút Kêu gọi hành động (CTA) Đặt bàn/Đặt món nổi bật"
     ]
   },
 

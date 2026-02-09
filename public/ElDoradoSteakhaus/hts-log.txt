@@ -1,0 +1,39 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 05 Feb 2026 16:14:21 at https://steakhaus-wattenscheid.de/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://steakhaus-wattenscheid.de/ -O1 "E:\SPN\NhaHang\res10" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:15:40	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/3d-flipbook-dflip-lite/assets/ (from https://steakhaus-wattenscheid.de/)
+16:16:52	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/header-footer-elementor/inc/images/shade.png (from https://steakhaus-wattenscheid.de/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.5.1)
+16:16:52	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/divider-icon.svg (from https://steakhaus-wattenscheid.de/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.2)
+16:16:52	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/list-bullet.svg (from https://steakhaus-wattenscheid.de/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.2)
+16:16:52	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/bdthemes-element-pack-lite/images/backgrounds/form-datalist.svg (from https://steakhaus-wattenscheid.de/wp-content/plugins/bdthemes-element-pack-lite/assets/css/bdt-uikit.css?ver=3.2)
+16:16:53	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/images/countdown-timer/circle-img-1.png (from https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/css/style.css?ver=1.5.9)
+16:16:53	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/images/countdown-timer/circle-img-2.png (from https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/css/style.css?ver=1.5.9)
+16:16:53	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/images/countdown-timer/circle-img-3.png (from https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/css/style.css?ver=1.5.9)
+16:16:53	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/images/countdown-timer/circle-img-4.png (from https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/css/style.css?ver=1.5.9)
+16:16:53	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/images/text-mask-image.jpg (from https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/css/style.css?ver=1.5.9)
+16:16:53	Error: 	"Not Found" (404) at link https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/images/products/ribbon-background.png (from https://steakhaus-wattenscheid.de/wp-content/plugins/elementskit-lite/widgets/init/assets/css/style.css?ver=1.5.9)
+16:16:54	Warning: 	Moved Permanently for https://steakhaus-wattenscheid.de/?p=178
+16:16:54	Warning: 	File has moved from https://steakhaus-wattenscheid.de/?p=178 to https://steakhaus-wattenscheid.de/wir/
+16:16:55	Warning: 	Moved Permanently for https://steakhaus-wattenscheid.de/?p=491
+16:16:55	Warning: 	File has moved from https://steakhaus-wattenscheid.de/?p=491 to https://steakhaus-wattenscheid.de/speisekarte/
+16:16:55	Warning: 	Moved Permanently for https://steakhaus-wattenscheid.de/?p=177
+16:16:55	Warning: 	File has moved from https://steakhaus-wattenscheid.de/?p=177 to https://steakhaus-wattenscheid.de/events/
+16:16:55	Warning: 	Moved Permanently for https://steakhaus-wattenscheid.de/?p=148
+16:16:55	Warning: 	File has moved from https://steakhaus-wattenscheid.de/?p=148 to https://steakhaus-wattenscheid.de/kontakt/
+16:16:55	Warning: 	Moved Permanently for https://steakhaus-wattenscheid.de/?p=1704
+16:16:55	Warning: 	File has moved from https://steakhaus-wattenscheid.de/?p=1704 to https://steakhaus-wattenscheid.de/partner/
+16:16:55	Warning: 	Moved Permanently for https://steakhaus-wattenscheid.de/?p=1730
+16:16:55	Warning: 	File has moved from https://steakhaus-wattenscheid.de/?p=1730 to https://steakhaus-wattenscheid.de/jobs/
+16:16:55	Warning: 	Moved Permanently for https://steakhaus-wattenscheid.de/?p=51
+16:16:55	Warning: 	File has moved from https://steakhaus-wattenscheid.de/?p=51 to https://steakhaus-wattenscheid.de/impressum/
+16:16:56	Warning: 	Moved Permanently for https://steakhaus-wattenscheid.de/?p=3
+16:16:56	Warning: 	File has moved from https://steakhaus-wattenscheid.de/?p=3 to https://steakhaus-wattenscheid.de/datenschutzerklaerung/
+16:16:56	Error: 	"Method Not Allowed" (405) at link https://steakhaus-wattenscheid.de/xmlrpc.php (from https://steakhaus-wattenscheid.de/datenschutzerklaerung/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 36 seconds : 235 links scanned, 214 files written (16540581 bytes overall) [14582673 bytes received at 93478 bytes/sec], 3665176 bytes transferred using HTTP compression in 86 files, ratio 17%, 9.3 requests per connection
+(12 errors, 16 warnings, 0 messages)
