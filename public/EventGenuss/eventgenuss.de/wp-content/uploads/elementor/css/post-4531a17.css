@@ -1,0 +1,96 @@
+.elementor-453 .elementor-element.elementor-element-7f615c2{--display:flex;}.elementor-453 .elementor-element.elementor-element-6544b9b.elementor-element{--align-self:center;}/* Start custom CSS for container, class: .elementor-element-7f615c2 *//* Grundlegendes Styling */
+.wpcf7-form {
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333;
+}
+
+/* Labels */
+.wpcf7-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+/* Inputs, Selects, Textareas */
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="tel"],
+.wpcf7-form input[type="number"],
+.wpcf7-form select,
+.wpcf7-form textarea {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Fokus-Effekt */
+.wpcf7-form input:focus,
+.wpcf7-form select:focus,
+.wpcf7-form textarea:focus {
+  border-color: #0073e6;
+  box-shadow: 0 0 0 2px rgba(0, 115, 230, 0.15);
+  outline: none;
+}
+
+/* Fieldset + Legend */
+.wpcf7-form fieldset {
+  border: 2px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  background: #fafafa;
+}
+
+.wpcf7-form legend {
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0 0.5rem;
+  color: #0073e6;
+}
+
+/* Checkboxen */
+.wpcf7-form .wpcf7-checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.wpcf7-form .wpcf7-checkbox label {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+}
+
+.wpcf7-form .wpcf7-checkbox input {
+  margin-right: 0.5rem;
+}
+
+/* Submit-Button */
+.wpcf7-form input[type="submit"] {
+  background: #0073e6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+  background: #005bb5;
+  transform: translateY(-1px);
+}
+
+.wpcf7-form input[type="submit"]:active {
+  background: #004999;
+  transform: translateY(0);
+}/* End custom CSS */

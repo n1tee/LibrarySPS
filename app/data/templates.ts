@@ -185,4 +185,90 @@ export const templates: Template[] = [
       "Bố cục Responsive & Điều hướng mượt mà"
     ]
   },
+
+  {
+    id: 11,
+    title: "Absinth",
+    category: "F&B",
+    package: "Essential",
+    description: "Absinth sở hữu phong cách thiết kế thoáng đãng, gần gũi với thiên nhiên, mang lại cảm giác thân thiện và chào đón tuyệt đối. Đây là giải pháp hoàn hảo cho các trang web Nhà hàng, Quán Cà phê sân vườn hoặc Pub địa phương, với bố cục tập trung tối đa vào việc trình diễn không gian quán và hình ảnh thực đơn hấp dẫn ngay từ màn hình đầu tiên.",
+    image: "/images/Absinth.png",
+    demoUrl: "/Absinth/index.html",
+    features: [
+      "Phong cách thiết kế dựa trên hình ảnh (Photography-driven) đầy cảm xúc",
+      "Hero Banner tràn màn hình, gây ấn tượng mạnh mẽ về thị giác",
+      "Thanh điều hướng (Navigation) tối giản, tinh tế & dễ sử dụng",
+      "Tối ưu hiển thị cho Không gian quán, Thực đơn & Sự kiện",
+      "Tương thích hoàn hảo trên mọi thiết bị (Fully Responsive)"
+    ]
+  },
+
+  {
+    id: 12,
+    title: "Kumpeltreff",
+    category: "F&B",
+    package: "Advanced",
+    description: "Kumpeltreff nổi bật với phong cách Vintage hoài cổ, sử dụng kết cấu nền giấy (Paper Texture) độc đáo tạo cảm giác thân thuộc và ấm cúng. Đây là lựa chọn tuyệt vời cho các nhà hàng truyền thống, quán Pub địa phương hoặc các trang web kể chuyện (Storytelling), nơi tôn vinh văn hóa và di sản ngay từ cái nhìn đầu tiên.",
+    image: "/images/Kumpeltreff.png",
+    demoUrl: "/Kumpeltreff/index.html",
+    features: [
+      "Thiết kế phong cách Retro & Industrial Heritage ấn tượng",
+      "Bố cục Navigation đối xứng, tập trung vào nhận diện Thương hiệu",
+      "Typography cổ điển kết hợp nền giấy tạo chiều sâu thị giác",
+      "Tối ưu hiển thị hình ảnh Panorama & Câu chuyện thương hiệu",
+      "Tích hợp sẵn CTA đặt bàn & Chỉ dẫn đường đi (Maps)"
+    ]
+  },
+
+  {
+    id: 13,
+    title: "BrauhausRietkotter",
+    category: "F&B",
+    package: "Professional",
+    description: "Brauhaus Rietkötter gây ấn tượng mạnh mẽ với thiết kế Full-screen Background, giúp phô diễn trọn vẹn không gian ấm cúng và sang trọng của nhà hàng. Đây là lựa chọn lý tưởng cho các quán Pub, Brewery hoặc Bistro muốn chinh phục thực khách bằng bầu không khí mời gọi ngay từ lần truy cập đầu tiên.",
+    image: "/images/BrauhausRietkotter.png",
+    demoUrl: "/BrauhausRietkotter/index.html",
+    features: [
+      "Hero Section tràn màn hình (Full-screen) chất lượng cao",
+      "Thiết kế tập trung vào trải nghiệm không gian & Ánh sáng",
+      "Thanh điều hướng trong suốt (Transparent Nav) hiện đại",
+      "Tối ưu hóa hiển thị cho Hình ảnh nội thất & Món ăn",
+      "Bố cục sang trọng, phù hợp cho F&B phân khúc cao cấp"
+    ]
+  },
+
+  {
+    id: 14,
+    title: "FiegesStammhaus",
+    category: "F&B",
+    package: "Professional",
+    description: "Fieges Stammhaus mang đậm hơi thở truyền thống với phong cách thiết kế mộc mạc (Rustic) kết hợp tông xanh cổ điển đặc trưng của thương hiệu bia lâu đời. Đây là giao diện lý tưởng cho các quán bia (Brauhaus), nhà hàng gia đình hoặc các mô hình kinh doanh đề cao giá trị lịch sử, sự gắn kết con người và ẩm thực địa phương.",
+    image: "/images/FiegesStammhaus.png",
+    demoUrl: "/FiegesStammhaus/index.html",
+    features: [
+      "Bố cục chia cột (Split Layout) độc đáo kết hợp Sidebar thông tin nổi bật",
+      "Sử dụng họa tiết vân gỗ (Wood Texture) tạo cảm giác ấm cúng, hoài niệm",
+      "Tối ưu hiển thị Thực đơn theo mùa (Seasonal Menu) dạng bảng phấn/poster",
+      "Khu vực Hero tập trung vào Hình ảnh con người & Câu chuyện thương hiệu (Storytelling)",
+      "Hệ thống màu sắc & Typography mang phong cách Đức cổ điển, tin cậy"
+    ]
+  },
+
+  {
+    id: 15,
+    title: "EventGenuss",
+    category: "F&B",
+    package: "Advanced",
+    description: "EventGenuss gây ấn tượng bởi vẻ đẹp hiện đại, thanh lịch với nền trắng chủ đạo, làm nổi bật tối đa hình ảnh sự kiện và không gian thiên nhiên. Đây là giao diện mẫu mực cho các đơn vị Tổ chức sự kiện (Event Agency), Dịch vụ Catering ngoài trời hoặc Khu du lịch sinh thái, nơi cần sự chuyên nghiệp và thông tin được trình bày mạch lạc, rõ ràng.",
+    image: "/images/EventGenuss.png",
+    demoUrl: "/EventGenuss/index.html",
+    features: [
+      "Phong cách thiết kế Tối giản (Minimalism) & Clean Design sang trọng",
+      "Header tích hợp Top-bar giúp khách hàng tiếp cận thông tin liên hệ tức thì",
+      "Tối ưu trình diễn hình ảnh Không gian (Venue) & Hoạt động ngoài trời",
+      "Bố cục linh hoạt cho nhiều loại hình dịch vụ: Food Trucks, Hội nghị, Tiệc cưới",
+      "Giao diện tập trung vào trải nghiệm người dùng (UX) và điều hướng trực quan",
+    ]
+  },
+
 ];

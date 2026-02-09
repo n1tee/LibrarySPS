@@ -1,0 +1,64 @@
+HTTrack3.49-2+htsswf+htsjava launched on Thu, 05 Feb 2026 14:58:54 at https://www.kumpeltreff.info/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.kumpeltreff.info/ -O1 "E:\SPN\NhaHang\res3" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+15:03:54	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/)
+15:03:54	Error: 	"Bad Request" (400) at link https://www.kumpeltreff.info/wp-admin/admin-ajax.php (from https://www.kumpeltreff.info/)
+15:03:54	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=482
+15:03:54	Warning: 	File has moved from https://www.kumpeltreff.info/?p=482 to https://www.kumpeltreff.info/veranstaltungen/
+15:03:57	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=377
+15:03:57	Warning: 	File has moved from https://www.kumpeltreff.info/?p=377 to https://www.kumpeltreff.info/ueber-uns-knepper-management/
+15:03:57	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=297
+15:03:57	Warning: 	File has moved from https://www.kumpeltreff.info/?p=297 to https://www.kumpeltreff.info/der-kumpeltreff/
+15:03:57	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/der-ausbau/ (from https://www.kumpeltreff.info/der-kumpeltreff/)
+15:03:57	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=56
+15:03:57	Warning: 	File has moved from https://www.kumpeltreff.info/?p=56 to https://www.kumpeltreff.info/speisen/
+15:03:58	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=354
+15:03:58	Warning: 	File has moved from https://www.kumpeltreff.info/?p=354 to https://www.kumpeltreff.info/getraenke/
+15:03:58	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=356
+15:03:58	Warning: 	File has moved from https://www.kumpeltreff.info/?p=356 to https://www.kumpeltreff.info/cocktails/
+15:03:58	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=17
+15:03:58	Warning: 	File has moved from https://www.kumpeltreff.info/?p=17 to https://www.kumpeltreff.info/kontaktformular/
+15:03:58	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=52
+15:03:58	Warning: 	File has moved from https://www.kumpeltreff.info/?p=52 to https://www.kumpeltreff.info/anfahrt/
+15:03:58	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=380
+15:03:58	Warning: 	File has moved from https://www.kumpeltreff.info/?p=380 to https://www.kumpeltreff.info/jobs/
+15:04:54	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=1087
+15:04:54	Warning: 	File has moved from https://www.kumpeltreff.info/?p=1087 to https://www.kumpeltreff.info/2024/11/21/abschluss-2024/
+15:04:54	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=1083
+15:04:54	Warning: 	File has moved from https://www.kumpeltreff.info/?p=1083 to https://www.kumpeltreff.info/2024/09/30/tag-der-deutschen-einheit-geoeffnet/
+15:04:54	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=815
+15:04:54	Warning: 	File has moved from https://www.kumpeltreff.info/?p=815 to https://www.kumpeltreff.info/2024/06/11/sommerfest-flohmarkt-2024/
+15:04:54	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=810
+15:04:54	Warning: 	File has moved from https://www.kumpeltreff.info/?p=810 to https://www.kumpeltreff.info/2024/06/06/msm-kickt-fair/
+15:05:44	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/page/2/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/page/2/)
+15:05:55	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=802
+15:05:55	Warning: 	File has moved from https://www.kumpeltreff.info/?p=802 to https://www.kumpeltreff.info/2024/05/20/hollaendische-snacks/
+15:05:55	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=807
+15:05:55	Warning: 	File has moved from https://www.kumpeltreff.info/?p=807 to https://www.kumpeltreff.info/2024/05/19/wattenscheider-kulturnacht-2024/
+15:05:55	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=805
+15:05:55	Warning: 	File has moved from https://www.kumpeltreff.info/?p=805 to https://www.kumpeltreff.info/2024/05/08/vaddatag/
+15:05:55	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=799
+15:05:55	Warning: 	File has moved from https://www.kumpeltreff.info/?p=799 to https://www.kumpeltreff.info/2024/05/06/feiertage-im-mai/
+15:05:55	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=797
+15:05:55	Warning: 	File has moved from https://www.kumpeltreff.info/?p=797 to https://www.kumpeltreff.info/2024/05/01/sommeroeffnungszeiten/
+15:05:55	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=794
+15:05:55	Warning: 	File has moved from https://www.kumpeltreff.info/?p=794 to https://www.kumpeltreff.info/2024/04/25/die-kulinarische-schnitzeljagd-wir-sind-dabei/
+15:06:12	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/page/3/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/page/3/)
+15:06:13	Warning: 	Moved Permanently for https://www.kumpeltreff.info/?p=791
+15:06:13	Warning: 	File has moved from https://www.kumpeltreff.info/?p=791 to https://www.kumpeltreff.info/2024/04/12/wir-sind-wieder-da/
+15:06:26	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/page/4/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/page/4/)
+15:06:41	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/page/5/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/page/5/)
+15:06:55	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/page/6/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/page/6/)
+15:07:15	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/page/7/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/page/7/)
+15:07:28	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/page/8/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/page/8/)
+15:07:44	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/page/9/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/page/9/)
+15:07:55	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/page/10/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/page/10/)
+15:07:55	Error: 	"Not Found" (404) at link https://www.kumpeltreff.info/page/11/%22https:/www.kumpeltreff.info/wp-content/uploads/2024/06/Sommerfest_und_flohmarkt_knepper_management_titelbanner5.jpg (from https://www.kumpeltreff.info/page/11/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 9 minutes 1 seconds : 296 links scanned, 261 files written (55386314 bytes overall) [38773343 bytes received at 71669 bytes/sec], 21910382 bytes transferred using HTTP compression in 161 files, ratio 17%, 2.6 requests per connection
+(13 errors, 40 warnings, 0 messages)
