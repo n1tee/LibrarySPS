@@ -20,7 +20,7 @@ export const templates: Template[] = [
     package: "Essential",
     description: "Giao diện hiện đại dành riêng cho nhà hàng và dịch vụ ăn uống. Thiết kế chuẩn Responsive, hỗ trợ màn hình Retina sắc nét cùng tông màu ấm áp giúp kích thích vị giác khách hàng.",
     image: "/images/FoodWagon.png",
-    demoUrl: "/FoodWagon/index.html",
+    demoUrl: "/FoodWagon/public/index.html",
     features: [
       "Xây dựng trên nền tảng Bootstrap 5 mới nhất",
       "Responsive 100% & Tương thích mọi thiết bị",
