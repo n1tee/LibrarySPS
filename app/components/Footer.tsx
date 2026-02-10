@@ -20,10 +20,58 @@ export default function Footer() {
 
                     {/* Social Icons */}
                     <div className="flex gap-4 mt-auto">
-                        <a href="#" className="bg-blue-600 text-white p-2 rounded-full hover:opacity-80 transition"><Facebook size={20} /></a>
-                        <a href="#" className="bg-gradient-to-br from-purple-500 to-pink-500 text-white p-2 rounded-full hover:opacity-80 transition"><Instagram size={20} /></a>
-                        <a href="#" className="bg-red-600 text-white p-2 rounded-full hover:opacity-80 transition"><Youtube size={20} /></a>
-                        <a href="#" className="bg-[#0077b5] text-white p-2 rounded-full hover:opacity-80 transition"><Linkedin size={20} /></a>
+                        {/* Facebook */}
+                        <a
+                            href="https://www.facebook.com/sps.marketing.germany?mibextid=wwXIfr&rdid=yu2oAcKJZXpCt6Am&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CCCfCiCB6%2F%3Fmibextid%3DwwXIfr#"
+                            className="bg-blue-600 text-white p-2 rounded-full hover:opacity-80 transition"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Facebook size={20} />
+                        </a>
+
+                        {/* Instagram */}
+                        <a
+                            href="https://www.instagram.com/spsmarketingde/"
+                            className="bg-gradient-to-br from-purple-500 to-pink-500 text-white p-2 rounded-full hover:opacity-80 transition"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Instagram size={20} />
+                        </a>
+
+                        {/* Youtube */}
+                        <a
+                            href="https://www.youtube.com/@SPSMarketinginDeutschland"
+                            className="bg-red-600 text-white p-2 rounded-full hover:opacity-80 transition"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Youtube size={20} />
+                        </a>
+
+                        {/* Tiktok */}
+                        <a
+                            href="https://www.tiktok.com/@spsmarketingde"
+                            className="bg-black text-white p-2 rounded-full hover:opacity-80 transition"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="20"
+                                height="20"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="lucide lucide-tiktok"
+                            >
+                                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+                            </svg>
+                        </a>
                     </div>
                 </div>
 
