@@ -356,4 +356,71 @@ export const templates: Template[] = [
     ]
   },
 
+  {
+    id: 21,
+    title: "Kiko's",
+    category: "Nails & Spa",
+    package: "Essential",
+    description: "Kiko's Nails & Spa mang đến cảm giác thư thái tuyệt đối ngay từ cái nhìn đầu tiên với tông màu be (Beige) và cam đất ấm áp. Đây là giao diện hoàn hảo cho các Tiệm Nail, Spa chăm sóc da hoặc Trung tâm Wellness, nơi muốn truyền tải thông điệp về sự bình yên, vẻ đẹp tự nhiên và sự chăm sóc tận tình.",
+    image: "/images/Kikos.png",
+    demoUrl: "/Kikos/index.html",
+    features: [
+      "Bảng màu Earthy Tones (Màu đất) tạo không gian ấm cúng & thư giãn",
+      "Sử dụng họa tiết hình học bo tròn (Circle Shapes) mềm mại, nữ tính",
+      "Nút kêu gọi hành động (CTA) 'Đặt lịch ngay' nổi bật trên nền ảnh",
+      "Typography kết hợp giữa Font Serif sang trọng & Sans-serif hiện đại",
+      "Bố cục Hero Section ấn tượng với hình ảnh Spa chất lượng cao"
+    ]
+  },
+
+  {
+    id: 22,
+    title: "Agnes",
+    category: "Landing Page",
+    package: "Essential",
+    description: "Giao diện này sở hữu thiết kế tối giản (Minimalist) nhưng đầy tinh tế, sử dụng các hình khối hình học trừu tượng và hiệu ứng đổ bóng mềm mại để tạo chiều sâu. Đây là giải pháp Landing Page hoàn hảo cho các Startup công nghệ, SaaS (Phần mềm dịch vụ) hoặc Giới thiệu Ứng dụng Mobile, nơi cần sự mạch lạc, chuyên nghiệp và tập trung tuyệt đối vào việc chuyển đổi người dùng.",
+    image: "/images/Agnes.png",
+    demoUrl: "/Agnes/index.html",
+    features: [
+      "Phong cách thiết kế Clean & Modern với khoảng trắng (White-space) thoáng đãng",
+      "Sử dụng họa tiết hình học (Geometric Shapes) & Gradient xanh-hồng thời thượng",
+      "Bố cục Grid chia cột thông minh cho khu vực Tính năng (Features)",
+      "Hero Section bất đối xứng (Asymmetrical) tạo điểm nhấn thị giác mạnh mẽ",
+      "Nút kêu gọi hành động (CTA) nổi bật với hiệu ứng đổ bóng (Drop Shadow)"
+    ]
+  },
+
+  {
+    id: 23,
+    title: "Solid",
+    category: "Landing Page",
+    package: "Advanced",
+    description: "Solid gây ấn tượng mạnh mẽ với giao diện Dark Mode huyền bí kết hợp cùng các khối hình học 3D trôi nổi đầy chiều sâu. Template này được thiết kế 'đo ni đóng giày' cho các Công ty công nghệ, Startup phần mềm (SaaS) hoặc các Dự án Blockchain/Crypto, nơi cần thể hiện sự hiện đại, vững chãi và dẫn đầu xu hướng công nghệ ngay từ cái nhìn đầu tiên.",
+    image: "/images/Solid.png",
+    demoUrl: "/Solid/index.html",
+    features: [
+      "Giao diện Dark Mode thời thượng, giúp làm nổi bật nội dung & giảm mỏi mắt",
+      "Sử dụng đồ họa 3D Isometric & Hình khối trừu tượng (Abstract Shapes) độc đáo",
+      "Hero Section mạnh mẽ với nút Call-to-Action kép (Primary & Secondary Buttons)",
+      "Hệ thống icon 3D minh họa tính năng (Feature Icons) đồng bộ và sắc sảo",
+      "Thiết kế Responsive mượt mà, tối ưu trải nghiệm trên mọi thiết bị di động"
+    ]
+  },
+
+  {
+    id: 24,
+    title: "Tidy",
+    category: "Landing Page",
+    package: "Advanced",
+    description: "Tidy là sự kết hợp hoàn hảo giữa tính chuyên nghiệp và thẩm mỹ hiện đại. Với thiết kế phân chia mảng màu (Split-screen) táo bạo cùng đường cắt chéo năng động, giao diện này tạo nên sự tin cậy tuyệt đối. Đây là giải pháp lý tưởng cho các Công ty B2B, Agency tư vấn, hoặc Nền tảng quản lý (Management Platforms), nơi cần khẳng định vị thế và sự minh bạch.",
+    image: "/images/Tidy.png",
+    demoUrl: "/Tidy/HTML/public/index.html",
+    features: [
+      "Sự kết hợp Typography tinh tế: Tiêu đề Serif sang trọng & Nội dung Sans-serif hiện đại",
+      "Bố cục Hero Section tích hợp Video Popup & Họa tiết chấm (Dot Pattern) trang trí",
+      "Đường phân cách chéo (Diagonal Divider) tạo dòng chảy thị giác độc đáo",
+      "Hệ thống Icon tròn phẳng (Flat Icons) tối giản, đồng bộ nhận diện thương hiệu",
+      "Thiết kế tập trung vào chuyển đổi với cụm nút CTA kép (Primary & Secondary)"
+    ]
+  },
 ];
