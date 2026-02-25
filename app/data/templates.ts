@@ -679,16 +679,122 @@ export const templates: Template[] = [
     ]
   },
 
-  // {
-  //   id: ,
-  //   title: "",
-  //   category: "Landing Page",
-  //   package: "Advanced,Essential",
-  //   description: "",
-  //   image: "/images/.png",
-  //   demoUrl: "//index.html",
-  //   features: [
+  {
+    id: 40,
+    title: "CryptoLand",
+    category: "Doanh nghiệp",
+    package: "Advanced",
+    description: "CryptoLand mang đến một không gian kỹ thuật số huyền bí và đậm chất tương lai (Futuristic) với giao diện Dark Mode sâu thẳm kết hợp cùng các hiệu ứng ánh sáng Neon rực rỡ. Được thiết kế chuyên biệt cho ngách tài chính thế hệ mới, đây là 'vũ khí' chốt sale hoàn hảo cho các Dự án Blockchain, Sàn giao dịch Tiền mã hóa (Crypto/Web3), hoặc Ứng dụng Đầu tư tài chính, giúp truyền tải sự bảo mật, tối tân và kích thích nhà đầu tư tham gia ngay lập tức.",
+    image: "/images/Cryptoland.png",
+    demoUrl: "/Cryptoland/index.html",
+    features: [
+      "Giao diện Dark Mode thời thượng với tông màu nền Tím than (Deep Navy/Purple) giúp làm nổi bật hoàn toàn các chi tiết thiết kế ánh sáng",
+      "Sở hữu Hình minh họa 3D Isometric đỉnh cao: Khắc họa các đồng tiền mã hóa (Ethereum, Bitcoin) lơ lửng trên bệ phóng smartphone cùng hiệu ứng trụ ánh sáng 3D vô cùng mãn nhãn",
+      "Typography mang tính định hướng cao: Sử dụng font Sans-serif hiện đại, kết hợp nét gạch chân uốn lượn (Curved underline) dưới từ khóa trọng tâm ('Idle') để bẻ gãy sự nhàm chán của văn bản thông thường",
+      "Hệ thống nút Call-to-Action (CTA) đa cấp độ: Nút 'Discover More' phủ dải màu Gradient xanh thu hút ánh nhìn ở nội dung chính, kết hợp nút 'Get Started' nền trắng bo tròn trên thanh menu",
+      "Bố cục cân bằng (Balanced Split-screen) tạo không gian thoáng (negative space) hợp lý, giúp người dùng dễ dàng tiếp nhận thông điệp mà không bị ngợp bởi các chi tiết 3D",
+    ]
+  },
 
-  //   ]
-  // },
+  {
+    id: 41,
+    title: "Essence",
+    category: "Doanh nghiệp",
+    package: "Professional",
+    description: "Essence mang đến một trải nghiệm thị giác vô cùng choáng ngợp nhờ việc sử dụng hình ảnh phong cảnh toàn màn hình (Full-screen Background Image) làm phông nền chủ đạo. Sự kết hợp giữa thiên nhiên ngoạn mục và các thành phần UI tối giản biến đây thành một template lý tưởng cho các Agency Du lịch, Nhiếp ảnh gia (Portfolio), hoặc các Chiến dịch thương hiệu muốn truyền tải sự tự do, khơi gợi cảm hứng khám phá và khẳng định đẳng cấp ngay từ ánh nhìn đầu tiên.",
+    image: "/images/Essence.png",
+    demoUrl: "/Essence/index.html",
+    features: [
+      "Sử dụng Hình ảnh nền toàn màn hình (Hero Image Background) bao trọn giao diện, tạo chiều sâu và cảm xúc mạnh mẽ cho trang web",
+      "Thanh điều hướng (Navbar) trong suốt (Transparent) hòa quyện hoàn hảo với bức ảnh, tích hợp chỉ thị gạch chân màu Hồng san hô (Coral Pink) cho trang đang xem",
+      "Typography mang phong cách to bản (Bold), sử dụng màu trắng tinh khôi để thông điệp nổi bật rực rỡ trên phông nền phong cảnh",
+      "Cụm nút Call-to-Action (CTA) kép kinh điển: Nút 'Download' màu đặc (Solid) kích thích hành động, song hành cùng nút 'Get Started!' dạng viền trong suốt (Ghost Button) vô cùng thanh lịch",
+      "Tích hợp thanh chỉ thị trượt (Slider Indicators) ở cạnh dưới màn hình, cho phép chuyển đổi mượt mà giữa các hình ảnh hoặc chiến dịch khác nhau"
+    ]
+  },
+
+  {
+    id: 42,
+    title: "Play",
+    category: "Doanh nghiệp",
+    package: "Professional",
+    description: "Phiên bản Play đặc biệt này mang đậm tinh thần của cộng đồng phát triển phần mềm với thông điệp hợp tác 'Tailwind CSS x TailGrids' vô cùng tự hào. Vẫn giữ nguyên phông nền Xanh dương (Solid Blue) rực rỡ tượng trưng cho sự chuyên nghiệp và uy tín công nghệ, đây là template không thể bỏ qua dành cho các Dự án Open-Source, Sản phẩm SaaS, hoặc Công cụ Developer (DevTools) muốn thu hút cả người dùng cuối lẫn sự ủng hộ từ các lập trình viên trên toàn thế giới.",
+    image: "/images/Playy.png",
+    demoUrl: "/Playy/index.html",
+    features: [
+      "Banner hợp tác công nghệ (Tech-stack Banner) nổi bật ngay trên cùng màn hình, khẳng định chất lượng hệ thống nền tảng",
+      "Cụm Nút Kêu gọi hành động (CTA) mang tính định hướng cộng đồng: Nút 'Download Now' nền trắng kích thích chuyển đổi, đi kèm nút 'Star on Github' thanh lịch",
+      "Trực quan hóa sự tương thích của sản phẩm bằng cách hiển thị các Icon công nghệ quen thuộc (Bootstrap, Tailwind, React, NextJS) ngay trung tâm",
+      "Thủ thuật thiết kế 'Peekaboo' khéo léo hiển thị một phần của Dashboard ở cạnh dưới, tạo động lực cuộn trang một cách tự nhiên",
+      "Bố cục Hero căn giữa (Center-aligned) sắc nét kết hợp với các họa tiết lưới chấm (Dot grid) tinh tế, phá vỡ sự đơn điệu của phông nền trơn"
+    ]
+  },
+
+  {
+    id: 43,
+    title: "Proton",
+    category: "Doanh nghiệp",
+    package: "Advanced",
+    description: "Proton mang đến một luồng gió kỹ thuật số vô cùng tươi mát và tràn đầy năng lượng nhờ dải màu nền Gradient Xanh dương - Xanh ngọc (Blue-Cyan) tuyệt đẹp. Điểm xuyết bằng các hình minh họa vector sinh động và mềm mại, template này được 'đo ni đóng giày' cho các Giải pháp SaaS, Doanh nghiệp B2B, hoặc Startup Công nghệ muốn phá vỡ sự khô khan truyền thống để giao tiếp với khách hàng một cách sáng tạo và thân thiện nhất.",
+    image: "/images/Proton.png",
+    demoUrl: "/Proton/index.html",
+    features: [
+      "Phông nền Gradient rực rỡ (Vibrant Gradient Background) tạo độ tương phản tuyệt đối, giúp văn bản màu trắng và các nút CTA nổi bật hoàn toàn",
+      "Sử dụng Hình minh họa phẳng (Flat Vector Illustration) mô tả sự tương tác của con người với các khối giao diện (UI cards), giúp trừu tượng hóa các sản phẩm công nghệ một cách gần gũi",
+      "Cụm nút Kêu gọi hành động (CTA) hình viên thuốc (Pill-shaped) kép kinh điển: Nút 'Get Started' nền trắng đặc (Solid) và nút 'Learn More' viền mỏng (Outline) thanh lịch",
+      "Bố cục chia đôi màn hình (Split-screen Layout) rộng rãi, tối ưu hóa không gian trắng (white-space) để mắt người dùng không bị quá tải thông tin",
+      "Thanh điều hướng (Navbar) trong suốt hòa quyện vào nền, đi kèm nút 'Join Now' được bo tròn tinh tế ở góc phải để tối đa hóa điểm chạm chuyển đổi"
+    ]
+  },
+
+  {
+    id: 44,
+    title: "SaasPal",
+    category: "Doanh nghiệp",
+    package: "Essential",
+    description: "SaaSpal mang đến một thiết kế hiện đại và đậm chất công nghệ với phông nền Xanh Tím (Violet-Blue) rực rỡ. Điểm thu hút nhất của template này là việc trình bày giao diện Dashboard vô cùng chi tiết và có chiều sâu. Đây là bệ phóng hoàn hảo cho các Dự án SaaS, Ứng dụng Web (Web App), hoặc Nền tảng Quản lý/Lưu trữ dữ liệu, nơi cần chứng minh sức mạnh hệ thống và thu hút người dùng ngay từ cái nhìn đầu tiên.",
+    image: "/images/Saaspal.png",
+    demoUrl: "/Saaspal/index.html",
+    features: [
+      "Sử dụng phông nền màu trơn (Solid Background) nổi bật để tạo độ tương phản tối đa, giúp văn bản màu trắng và giao diện sản phẩm tỏa sáng",
+      "Phô diễn Mockup Giao diện nền tảng (App Dashboard) vô cùng chi tiết, trực quan hóa hoàn hảo trải nghiệm người dùng thực tế của một phần mềm SaaS",
+      "Kỹ thuật bóc tách UI (Floating UI Cards): Các thẻ thành phần (như thẻ Google Drive) được làm nổi lên với hiệu ứng đổ bóng mềm (Soft shadow), tạo không gian 3D cực kỳ sống động",
+      "Bố cục tràn viền (Bleeding Edge Layout): Việc để giao diện Dashboard tràn ra sát mép phải màn hình giúp phá vỡ ranh giới khuôn mẫu, mang lại cảm giác không gian mở",
+      "Nút Kêu gọi hành động (CTA) 'Get Started' mang phong cách tối giản dạng viền bo tròn (Rounded Outline/Ghost Button), tinh tế nhưng vẫn thu hút click"
+    ]
+  },
+
+  {
+    id: 45,
+    title: "Slick",
+    category: "Doanh nghiệp",
+    package: "Advanced",
+    description: "Slick mang đến một không gian kỹ thuật số đầy sáng tạo và đột phá với dải màu nền Gradient Xanh dương - Tím (Blue-Purple) chuyển tiếp mượt mà. Điểm nhấn trung tâm là hình minh họa 3D Isometric tinh xảo, thể hiện tinh thần xây dựng và phát triển sản phẩm một cách trực quan. Đây là một template lý tưởng cho các Startup công nghệ, Doanh nghiệp số (Digital Agency), hoặc các Sản phẩm SaaS muốn khẳng định sự chuyên nghiệp, năng động và tầm nhìn hướng tới tương lai.",
+    image: "/images/Slick.png",
+    demoUrl: "/Slick/index.html",
+    features: [
+      "Phông nền Gradient rực rỡ kết hợp với đường cắt chéo (Diagonal Shape Divider) táo bạo ở cạnh dưới, tạo ra sự chuyển tiếp không gian đầy phá cách",
+      "Hình minh họa 3D Isometric xuất sắc, mô phỏng một nhóm nhân vật đang tương tác và 'lắp ráp' giao diện ứng dụng di động, khơi gợi tinh thần teamwork",
+      "Hệ thống Nút kêu gọi hành động (CTA) tương phản mạnh: Nút 'Get Started' màu xanh lá (Green) rực rỡ song hành cùng nút 'Contact Us' nền trắng đặc, giúp định hướng hành động rõ ràng",
+      "Typography sử dụng font Sans-serif dày, sắc nét cho tiêu đề chính, giúp thông điệp 'Handcrafted Web Template...' nổi bật mạnh mẽ trên nền màu tối",
+      "Thanh điều hướng (Navbar) tinh gọn nhưng đầy đủ các chuyên mục, đi kèm nút 'Download' riêng biệt được đặt trên nền dải màu sáng hơn ở góc phải để tối ưu điểm chạm chuyển đổi"
+    ]
+  },
+
+  {
+    id: 46,
+    title: "Smart",
+    category: "Doanh nghiệp",
+    package: "Advanced",
+    description: "Smart là một bộ sưu tập đa năng (Multi-purpose) mang đến giải pháp toàn diện cho mọi nhu cầu thiết kế Landing Page. Với sự kết hợp linh hoạt giữa các phông nền hình ảnh thực tế (Real-life photography) và hệ thống hình minh họa vector sinh động, template này là 'chìa khóa' vạn năng cho các Startup, Doanh nghiệp vừa và nhỏ (SME), Sản phẩm SaaS, hoặc Agency sáng tạo muốn một giao diện vừa chuẩn mực, uy tín lại vừa dễ dàng tùy biến.",
+    image: "/images/Smart.png",
+    demoUrl: "/Smart/index.html",
+    features: [
+      "Sở hữu đa dạng các biến thể Hero Section: Từ việc sử dụng hình ảnh thực tế (người dùng, văn phòng) làm nền cho đến các phông nền trắng tối giản kết hợp hình minh họa",
+      "Sử dụng dải màu Xanh Mint (Mint Green) làm màu chủ đạo xuyên suốt (từ Thanh điều hướng cho đến các Nút CTA), tạo cảm giác tươi mới, hiện đại và thân thiện",
+      "Thanh điều hướng (Navbar) linh hoạt: Có thể hiển thị dạng khối màu (Solid block) nổi bật hoặc dạng trong suốt (Transparent) hòa quyện vào hình nền",
+      "Hệ thống Nút kêu gọi hành động (CTA) kép tiêu chuẩn: Nút 'Get Started' nền đặc (Solid) và nút phụ 'Download/Watch Video' dạng viền bo tròn hoặc trong suốt",
+      "Bố cục khu vực nội dung (Features Section) trực quan: Kết hợp văn bản giới thiệu ở trung tâm và các hình minh họa mô tả chi tiết quy trình làm việc xung quanh"
+    ]
+  },
 ];
